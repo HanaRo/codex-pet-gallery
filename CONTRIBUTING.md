@@ -19,7 +19,7 @@ python tools/add_pet.py --id your-character --name "角色名" --version 1.0.0 -
 
 向同一 id 添加新的版本时使用相同命令并提高版本号；已有版本会被拒绝覆盖。可选 --set-latest 明确更新已经存在角色的 latest。新角色的首个版本自动设为 latest。
 
-工具会创建 73 张最终帧、pet.json、layout.json、manifest.json，登记目录索引，并将视觉检查标记为尚待完成。应补充 sources、预览、来源与语义检查，不能将几何校验当成视觉验收。完成检查后将 manifest.json 的 qa_status 设为 approved 或 approved-with-documented-warnings；打包工具会拒绝尚未完成视觉检查的版本。
+工具会创建包含 73 张最终帧的 frames.zip、pet.json、layout.json、manifest.json，登记目录索引，并将视觉检查标记为尚待完成。应补充 sources、预览、来源与语义检查，不能将几何校验当成视觉验收。完成检查后将 manifest.json 的 qa_status 设为 approved 或 approved-with-documented-warnings；打包工具会拒绝尚未完成视觉检查的版本。
 
 ## 提交前检查
 

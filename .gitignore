@@ -7,5 +7,6 @@ build/
 .pytest_cache/
 .env
 .env.*
+**/frames/
 !.env.example
 

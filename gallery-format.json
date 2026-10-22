@@ -19,5 +19,6 @@
     8
   ],
   "canonical_reproduction_input": "frames from final encoded and edge-cleaned atlas",
-  "qa_policy": "Preserve original human/agent semantic review separately from automated packaging validation."
+  "qa_policy": "Preserve original human/agent semantic review separately from automated packaging validation.",
+  "frame_storage": "frames.zip (authoritative, exact PNG bytes); frames/ is an optional expanded cache"
 }

@@ -37,7 +37,7 @@ python tools/gallery.py package --pet deepseek-chan --version 1.0.0
 
 重新组装的图片写入 dist/deepseek-chan/1.0.0/spritesheet.png；可安装压缩包写入 dist/deepseek-chan-1.0.0-pet.zip。
 
-直接下载仓库中的精灵图，可得到冻结版本的相同文件；从逐帧素材重新组装，可得到相同 RGBA 像素。不同 PNG 编码器可能生成不同文件字节，脚本会分别报告文件哈希与像素哈希。AI 再次生成图片不保证得到完全相同的画面。
+直接下载仓库中的精灵图，可得到冻结版本的相同文件；从 frames.zip 中的逐帧素材重新组装，可得到相同 RGBA 像素。不同 PNG 编码器可能生成不同文件字节，脚本会分别报告文件哈希与像素哈希。AI 再次生成图片不保证得到完全相同的画面。
 
 详见 [复现说明](docs/REPRODUCING.md)。
 
@@ -54,7 +54,7 @@ pets/
         manifest.json                # 版本、逐帧清单、校验和、来源
         spritesheet.png              # 可直接使用的最终素材
         layout.json                  # 16 个注视方向的布局
-        frames/                      # 从最终图无损拆出的 73 帧
+        frames.zip                   # 从最终图无损拆出的完整 73 帧资源包
         sources/                     # 高清原画、条带、提示词、生成记录
         previews/                    # GIF / MP4 / 静帧
         qa/                          # 脱敏后的历史验证与视觉检查
