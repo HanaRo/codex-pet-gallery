@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "ambiguous",
+      "reason": "A has its nose and exposed cheek projecting to the viewer's right, with the right eye farther toward the face edge. B is almost frontal: its eyes and raised chin are centered, without a reliable left/right head turn."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A's nose and chin project right and its right facial edge is prominent. B reverses that profile: nose and chin project left, with more hair mass visible on the right side of the head."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A shows a clear rightward nose silhouette and cheek. B shows a leftward nose silhouette and cheek, with the nearer eye on the right side of its exposed face."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A's face extends toward the right beyond its bangs; B's face extends toward the left beyond its bangs. Both have distinct opposing nose and chin profiles."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A's nose and visible lower face project left of the head center. B's nose and visible lower face project right, with the opposite cheek exposed."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "Although both heads pitch down, A's nose and face are displaced left under the bangs; B's nose and face are displaced right, with an evident right facial contour."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "ambiguous",
+      "B": "screen-left",
+      "reason": "A bows almost straight forward, with its eyes and small nose approximately centered beneath the bangs; the head supplies no confident horizontal cue. B's lowered face is displaced left, and its nose and chin point left beneath asymmetric bangs."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "up",
+      "B": "down",
+      "reason": "A raises its chin, exposing a broad lower face with eyes high beneath the fringe. B exposes the crown and compresses the visible face beneath lowered bangs, tucking the chin toward the collar."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "down",
+      "B": "up",
+      "reason": "A's crown dominates and its eye line sits low beneath the bangs, with the chin tucked. B lifts the nose and chin and shows a broad upward-facing cheek and lower face."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "up",
+      "B": "down",
+      "reason": "A's profile has a raised nose and lifted chin with more neck visible. B pitches its head forward, showing more crown and a lowered eye line and chin close to the collar."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "up",
+      "reason": "A's right-facing head is lowered, with more crown exposed and the eye line and chin close to the collar. B lifts the same right-facing profile, raising the nose and chin and exposing more lower cheek and neck."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "down",
+      "B": "up",
+      "reason": "A has a bowed crown and low eyes beneath the fringe, with its chin tucked. B lifts the chin strongly and presents the underside-oriented lower face beneath high-set eyes."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "down",
+      "B": "up",
+      "reason": "A's left-facing head bows with visible crown, lowered eyes, and a tucked chin. B's leftward nose angles upward, and its chin lifts away from the collar."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "down",
+      "B": "up",
+      "reason": "A's left-facing head sits lowered with the eye line low beneath the fringe and the chin drawn toward the collar. B raises the left-facing nose and chin and exposes more cheek and neck below the face."
+    }
+  ]
+}

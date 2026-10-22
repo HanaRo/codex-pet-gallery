@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "row4_semantics": "standing bilateral tail wag explicitly requested by user",
+  "findings": [
+    "Every row complete, original body proportions retained with larger size.",
+    "Standing row feet registered tosame ground and xanchor; reviewheadlean preserved.",
+    "Single tail alternates frombodyright tobodyleft behindapron, bodyandfeetstationary.",
+    "Directions and eating handedness preserved; no clipping or looseeffects."
+  ],
+  "required_jump_lift_override": 0
+}

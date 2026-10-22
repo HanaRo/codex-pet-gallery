@@ -1,0 +1,664 @@
+{
+  "review_type": "independent final visual acceptance of enlarged bilateral-tail revision",
+  "reviewer": "wave_visual",
+  "reviewed_at_utc": "2026-10-21T09:45:32.052642+00:00",
+  "atlas": "historical-run/final/spritesheet-extended.png",
+  "atlas_sha256": "2f969373f59ed466a37d620d0a8dd6a12a693f92c0a0f4228748a3194d417ad2",
+  "verdict": "pass_with_warnings",
+  "ok": true,
+  "blocking_findings": [],
+  "user_override": {
+    "row": 4,
+    "technical_state_key": "jumping",
+    "requested_visual_semantics": "Standing tail wag behind torso on both viewer-left and viewer-right; jumping or vertical lift is not required.",
+    "applied_in_review": true
+  },
+  "method": {
+    "native_cell_size": [
+      192,
+      208
+    ],
+    "atlas_cells_visually_inspected": 73,
+    "all_gif_frames_inspected": 142,
+    "gif_files": [
+      {
+        "file": "qa/final-previews/all-states.gif",
+        "frames": 57,
+        "dimensions": [
+          320,
+          256
+        ],
+        "durations_ms": [
+          280,
+          110,
+          110,
+          140,
+          140,
+          320,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          220,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          220,
+          140,
+          140,
+          140,
+          280,
+          120,
+          120,
+          120,
+          120,
+          120,
+          140,
+          140,
+          140,
+          140,
+          140,
+          140,
+          140,
+          240,
+          150,
+          150,
+          150,
+          150,
+          150,
+          260,
+          120,
+          120,
+          120,
+          120,
+          120,
+          220,
+          150,
+          150,
+          150,
+          150,
+          150,
+          280
+        ],
+        "all_ordered_frames_visually_inspected": true
+      },
+      {
+        "file": "qa/final-previews/idle-tail-wag-idle.gif",
+        "frames": 7,
+        "dimensions": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          600,
+          120,
+          120,
+          120,
+          120,
+          120,
+          600
+        ],
+        "all_ordered_frames_visually_inspected": true
+      },
+      {
+        "file": "qa/final-previews/look-loop.gif",
+        "frames": 16,
+        "dimensions": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          180,
+          180,
+          180,
+          180,
+          180,
+          180,
+          180,
+          180,
+          180,
+          180,
+          180,
+          180,
+          180,
+          180,
+          180,
+          180
+        ],
+        "all_ordered_frames_visually_inspected": true
+      },
+      {
+        "file": "qa/final-previews/states/failed.gif",
+        "frames": 8,
+        "dimensions": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          140,
+          140,
+          140,
+          140,
+          140,
+          140,
+          140,
+          240
+        ],
+        "all_ordered_frames_visually_inspected": true
+      },
+      {
+        "file": "qa/final-previews/states/idle.gif",
+        "frames": 6,
+        "dimensions": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          280,
+          110,
+          110,
+          140,
+          140,
+          320
+        ],
+        "all_ordered_frames_visually_inspected": true
+      },
+      {
+        "file": "qa/final-previews/states/jumping.gif",
+        "frames": 5,
+        "dimensions": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          140,
+          140,
+          140,
+          140,
+          280
+        ],
+        "all_ordered_frames_visually_inspected": true
+      },
+      {
+        "file": "qa/final-previews/states/review.gif",
+        "frames": 6,
+        "dimensions": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          280
+        ],
+        "all_ordered_frames_visually_inspected": true
+      },
+      {
+        "file": "qa/final-previews/states/running-left.gif",
+        "frames": 8,
+        "dimensions": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          220
+        ],
+        "all_ordered_frames_visually_inspected": true
+      },
+      {
+        "file": "qa/final-previews/states/running-right.gif",
+        "frames": 8,
+        "dimensions": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          220
+        ],
+        "all_ordered_frames_visually_inspected": true
+      },
+      {
+        "file": "qa/final-previews/states/running.gif",
+        "frames": 6,
+        "dimensions": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          120,
+          120,
+          120,
+          120,
+          120,
+          220
+        ],
+        "all_ordered_frames_visually_inspected": true
+      },
+      {
+        "file": "qa/final-previews/states/tail-wag.gif",
+        "frames": 5,
+        "dimensions": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          120,
+          120,
+          120,
+          120,
+          120
+        ],
+        "all_ordered_frames_visually_inspected": true
+      },
+      {
+        "file": "qa/final-previews/states/waiting.gif",
+        "frames": 6,
+        "dimensions": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          260
+        ],
+        "all_ordered_frames_visually_inspected": true
+      },
+      {
+        "file": "qa/final-previews/states/waving.gif",
+        "frames": 4,
+        "dimensions": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          140,
+          140,
+          140,
+          280
+        ],
+        "all_ordered_frames_visually_inspected": true
+      }
+    ],
+    "contact_sheets": [
+      "qa/contact-sheet-final.png",
+      "qa/direction-qa.png"
+    ],
+    "inspection": "Read exact encoded atlas. Deterministically cropped every populated atlas cell onto dark contrast matte at native 192x208. Decoded every frame of every GIF, including nested state GIFs, and inspected ordered collages with durations; did not infer animation from first frame only. Inspected all-state GIF pages on their own light matte as well. This is ordered-sequence visual inspection rather than a claim of live temporal playback.",
+    "artwork_modified": false,
+    "scope_note": "Independent visual judgment; parent reported blind intermediate ambiguity during this labeled review. This report is not itself a blind direction classification or a substitute for bundled structural validation."
+  },
+  "tail_wag": {
+    "verdict": "pass",
+    "observed_order": [
+      "screen-right extended",
+      "screen-right tucked behind body/hair",
+      "screen-left extended",
+      "screen-left tucked behind body/hair",
+      "screen-right extended"
+    ],
+    "evidence": [
+      "Tail is visibly present on both sides over the five-frame row and remains behind the torso/hair, not across the front apron.",
+      "Middle tucked poses provide an occluded path between the two sides; no detached tail segment or duplicate simultaneous tail is visible.",
+      "Head, torso, dress and feet stay stationary as tail changes side; all five frames preserve the same foot baseline.",
+      "Idle-to-tail-wag-to-idle ordered frames preserve body identity and ground contact, with no vertical hop or conspicuous scale jump."
+    ],
+    "jumping_requirement": "Explicitly waived by the user override; lack of an airborne frame is correct for this revision."
+  },
+  "directions": [
+    {
+      "direction": "000",
+      "expected": "up",
+      "observed": "up",
+      "verdict": "pass",
+      "evidence": "Chin is raised, eyes point toward the upper headband, face remains horizontally centered."
+    },
+    {
+      "direction": "022.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "evidence": "Raised chin and high gaze persist while nose/cheek begin turning screen-right."
+    },
+    {
+      "direction": "045",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "evidence": "Rightward face yaw is stronger than 022.5 while eye and chin pitch remain above horizontal."
+    },
+    {
+      "direction": "067.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "evidence": "Face approaches right profile, with a small visible upward chin/gaze component relative to 090."
+    },
+    {
+      "direction": "090",
+      "expected": "right",
+      "observed": "right",
+      "verdict": "pass",
+      "evidence": "Nose tip, cheek contour and blue-eye gaze clearly point screen-right; torso remains frontal."
+    },
+    {
+      "direction": "112.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "evidence": "Rightward yaw remains, while chin/gaze lower from 090."
+    },
+    {
+      "direction": "135",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "evidence": "Bowed head and lowered eyes combine with an evident rightward face yaw."
+    },
+    {
+      "direction": "157.5",
+      "expected": "down-right",
+      "observed": "down with subtle rightward bias",
+      "verdict": "warning",
+      "evidence": "Compared with 180 the bowed face retains a small screen-right nose/eye bias; most motion is downward. At native size the horizontal component is weak in isolation, but the labeled 135-to-157.5-to-180 sequence continues toward centered down without a wrong-quadrant turn or reversal."
+    },
+    {
+      "direction": "180",
+      "expected": "down",
+      "observed": "down",
+      "verdict": "pass",
+      "evidence": "Head bows centrally; forehead/headband dominate and eyes point beneath the centered fringe."
+    },
+    {
+      "direction": "202.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "evidence": "Deep bowed pitch remains while face/nose shift slightly screen-left from 180."
+    },
+    {
+      "direction": "225",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "evidence": "Nose/cheek point left and face remains lowered beneath the fringe."
+    },
+    {
+      "direction": "247.5",
+      "expected": "down-left",
+      "observed": "left with shallow downward component",
+      "verdict": "warning",
+      "evidence": "Leftward orientation is clear. Chin/gaze remain slightly lower than 270 and follow the raised progression from 225; vertical component is subtle but correctly ordered."
+    },
+    {
+      "direction": "270",
+      "expected": "left",
+      "observed": "left",
+      "verdict": "pass",
+      "evidence": "Nose, cheek and eye gaze unmistakably point screen-left while torso/feet stay anchored."
+    },
+    {
+      "direction": "292.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "evidence": "Left-facing yaw persists with chin and eyes lifting above the 270 pose."
+    },
+    {
+      "direction": "315",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "evidence": "Nose/cheek point left while raised chin and high eye gaze strongly show upward pitch."
+    },
+    {
+      "direction": "337.5",
+      "expected": "up-left",
+      "observed": "up with subtle leftward bias",
+      "verdict": "warning",
+      "evidence": "Strong upward pitch returns toward frontal; compared with 000 there is a small remaining screen-left face/eye bias. Horizontal component is weak at native size, but labeled 315-to-337.5-to-000 forms a coherent return to centered up without an opposite-quadrant pose or reversal."
+    }
+  ],
+  "look_loop": {
+    "verdict": "pass_with_warnings",
+    "evidence": [
+      "Four cardinal directions are clear and correct at native size.",
+      "All sixteen poses progress clockwise in the intended up/right/down/left/up sequence; no definite wrong-quadrant pose or backtrack observed.",
+      "157.5-to-180 closes the shallow remaining right yaw into centered down; 337.5-to-000 closes shallow left yaw into centered up.",
+      "Face/head turn and pitch naturally while frontal torso, apron and feet remain anchored; no whole-character turntable.",
+      "No visible body-registration jump, conspicuous scale change, missing face, clipped hair/fin/tail or alpha hole in the ordered look loop."
+    ]
+  },
+  "standard_states": {
+    "verdict": "pass",
+    "evidence": [
+      "Idle shows readable blink and breathing/head micro-motion rather than inert repetition.",
+      "Right and left drag rows face the intended screen directions and show alternating extended/tucked leg cadence with stable character proportions.",
+      "Waving preserves the same viewer-left hand through raise, subtle palm tilt and return.",
+      "Failed row visibly changes expression and bows before recovery, without detached effect symbols.",
+      "Waiting raises/offers the rice bowl with hopeful gaze, head tilt and blink; bowl remains viewer-right and chopsticks viewer-left.",
+      "Active food-task row shows a connected bowl/chopstick eating sequence instead of foot-running. Bowl and chopsticks remain attached to the appropriate hands with no floating grains or steam.",
+      "Review changes gaze/head tilt and hand-to-chin pose coherently; no unexpected new prop or identity change."
+    ]
+  },
+  "geometry_and_alpha": {
+    "verdict": "pass",
+    "visual_evidence": [
+      "Enlarged sprites remain fully inside native cells: hair, fins, ahoge, shoes, tail and accessories are complete.",
+      "No visible green background panels, opaque keyed rectangles, conspicuous chroma fringe, accidental transparent interior holes or neighboring-cell bleed.",
+      "Standing and look rows share ground contact; pose/head changes do not read as unintended rescaling. Directional running has expected gait-height variation.",
+      "Identity, blue hair/eyes, maid costume, white frills, bows and whale motif remain consistent across states."
+    ],
+    "supporting_alpha_bounds_only": {
+      "threshold": 16,
+      "coordinate_basis": "zero-based 192x208 cell coordinates",
+      "rows": [
+        {
+          "row": 0,
+          "last_visible_y": [
+            201,
+            201,
+            201,
+            201,
+            201,
+            201
+          ],
+          "minimum_cell_edge_margin_px": 6
+        },
+        {
+          "row": 1,
+          "last_visible_y": [
+            194,
+            201,
+            201,
+            201,
+            194,
+            201,
+            201,
+            201
+          ],
+          "minimum_cell_edge_margin_px": 6
+        },
+        {
+          "row": 2,
+          "last_visible_y": [
+            190,
+            201,
+            199,
+            200,
+            193,
+            201,
+            200,
+            200
+          ],
+          "minimum_cell_edge_margin_px": 6
+        },
+        {
+          "row": 3,
+          "last_visible_y": [
+            201,
+            201,
+            201,
+            201
+          ],
+          "minimum_cell_edge_margin_px": 6
+        },
+        {
+          "row": 4,
+          "last_visible_y": [
+            201,
+            201,
+            201,
+            201,
+            201
+          ],
+          "minimum_cell_edge_margin_px": 6
+        },
+        {
+          "row": 5,
+          "last_visible_y": [
+            201,
+            201,
+            201,
+            201,
+            201,
+            201,
+            201,
+            201
+          ],
+          "minimum_cell_edge_margin_px": 6
+        },
+        {
+          "row": 6,
+          "last_visible_y": [
+            201,
+            201,
+            201,
+            201,
+            201,
+            201
+          ],
+          "minimum_cell_edge_margin_px": 6
+        },
+        {
+          "row": 7,
+          "last_visible_y": [
+            201,
+            201,
+            201,
+            201,
+            201,
+            201
+          ],
+          "minimum_cell_edge_margin_px": 6
+        },
+        {
+          "row": 8,
+          "last_visible_y": [
+            201,
+            201,
+            201,
+            201,
+            201,
+            201
+          ],
+          "minimum_cell_edge_margin_px": 6
+        },
+        {
+          "row": 9,
+          "last_visible_y": [
+            201,
+            201,
+            201,
+            201,
+            201,
+            201,
+            201,
+            201
+          ],
+          "minimum_cell_edge_margin_px": 6
+        },
+        {
+          "row": 10,
+          "last_visible_y": [
+            201,
+            201,
+            201,
+            201,
+            201,
+            201,
+            201,
+            201
+          ],
+          "minimum_cell_edge_margin_px": 6
+        }
+      ],
+      "observation": "Every standing/look frame ends at y=201; all populated cells have at least six pixels of margin at this alpha threshold."
+    },
+    "qualification": "Bounds are supplementary evidence, not a replacement structural validator. Visual alpha inspection used both dark atlas collages and existing light contact/GIF mattes."
+  },
+  "warnings": [
+    {
+      "kind": "direction_subtlety",
+      "direction": "157.5",
+      "severity": "minor_nonblocking",
+      "finding": "Horizontal rightward component is weak when viewed alone.",
+      "acceptance": "Correct small right bias relative to 180 and coherent approach from 135 in the labeled native-size loop."
+    },
+    {
+      "kind": "direction_subtlety",
+      "direction": "337.5",
+      "severity": "minor_nonblocking",
+      "finding": "Horizontal leftward component is weak when viewed alone.",
+      "acceptance": "Correct small left bias relative to 000 and coherent return from 315 in the labeled native-size loop."
+    },
+    {
+      "kind": "direction_subtlety",
+      "direction": "247.5",
+      "severity": "minor_nonblocking",
+      "finding": "Downward component is shallow.",
+      "acceptance": "Left orientation is clear and chin/gaze progression remains between 225 and 270."
+    },
+    {
+      "kind": "preview_label",
+      "severity": "minor_nonblocking",
+      "finding": "qa/contact-sheet-final.png still labels row 4 as jumping, while its five images show the requested tail wag. A compatibility states/jumping.gif also contains tail wag.",
+      "recommendation": "For user-facing presentation label row 4 as tail wag (jumping slot) or otherwise explain the technical mapping. The atlas artwork itself is correct."
+    },
+    {
+      "kind": "preview_timing",
+      "severity": "minor_nonblocking",
+      "finding": "Compatibility states/jumping.gif uses 140ms frames and a 280ms final hold; states/tail-wag.gif and the dedicated idle-tail-wag-idle sequence use 120ms tail frames.",
+      "recommendation": "Prefer tail-wag.gif for the requested preview; both versions contain the same correct five ordered visual poses."
+    }
+  ],
+  "review_artifacts_directory": "qa/independent-review",
+  "conclusion": "Accept enlarged atlas artwork with the documented intermediate-direction and presentation warnings. No artwork repair required by this independent visual review."
+}

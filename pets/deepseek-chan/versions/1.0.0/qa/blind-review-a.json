@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "ambiguous",
+      "reason": "A's nose and chin project to the viewer's right, with more visible cheek on the left. B is nearly symmetric across the nose and chin while looking upward, so a horizontal turn is not clear."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A has a rightward nose and chin silhouette with its far eye compressed on the right. B reverses that facial asymmetry: nose and chin point left and the leftmost eye is foreshortened."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A's face protrudes beyond the fringe toward the right, with a right-pointing nose. B's nose and exposed facial outline protrude left."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A presents a right-facing nose, mouth and chin profile. B presents the corresponding facial profile toward the left."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A's nose and lower face extend left from the hair, with the near cheek visible to their right. B's nose and lower face extend right, and its visible near cheek lies left of them."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "Both heads are lowered, but A's nose and chin are displaced left beneath the fringe and its right eye is more exposed. B's nose and chin are displaced right, with its left eye more exposed."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "The yaw is subtle in A, but its nose and chin sit right of the head's center and the right eye is slightly narrower. B shows clearer leftward displacement of the nose and lower face, with the left eye more compressed."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "up",
+      "B": "down",
+      "reason": "A lifts its chin and exposes a broad lower face beneath high-set eyes. B tucks its chin, shows more crown and fringe, and places the eyes low beneath the hair."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "down",
+      "B": "up",
+      "reason": "A's forehead and crown dominate above lowered eyes and a tucked chin. B lifts its nose and chin, opening the lower face beneath upward-directed eyes."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "up",
+      "B": "down",
+      "reason": "A raises the nose and chin in profile, with an exposed lower cheek. B angles the face downward, with the chin close to the collar and the fringe hanging over the eyes."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "up",
+      "reason": "A's chin is tucked nearer the collar and its eyes sit lower under the fringe. B's nose and chin rise together, leaving more exposed lower face and space above the collar."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "down",
+      "B": "up",
+      "reason": "A bows its head with a prominent crown, lowered eyes and tucked chin. B has a strongly lifted chin and a broad exposed underside of the face beneath high eyes."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "down",
+      "B": "up",
+      "reason": "A tips its nose and chin downward below the fringe. B lifts its left-facing profile, raising the nose and chin and exposing the lower cheek."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "down",
+      "B": "up",
+      "reason": "A's left-facing chin is tucked toward the collar and the eyes sit under a lowered fringe. B raises the nose and chin, with the face angled upward and the lower cheek more exposed."
+    }
+  ]
+}

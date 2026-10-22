@@ -1,0 +1,19 @@
+{
+  "reviewer": "primary-agent",
+  "atlas_sha256": "2f969373f59ed466a37d620d0a8dd6a12a693f92c0a0f4228748a3194d417ad2",
+  "source": "final atlas labeled direction sheet and ordered look-loop frames",
+  "cardinals": "All four passed isolated strict-majority blind review.",
+  "warnings": [
+    {
+      "direction": "157.5",
+      "resolution": "accepted-reviewed-warning",
+      "evidence": "Downward pitch is clear. Horizontal turn toward screen-right is shallow after 135; facial center remains slightly to screen-right as the head returns toward frontal before 180. No opposite-quadrant turn or loop reversal."
+    },
+    {
+      "direction": "337.5",
+      "resolution": "accepted-reviewed-warning",
+      "evidence": "Upward pitch is clear. Left yaw becomes shallow after 315 as face returns toward frontal at 000; small screen-left face placement remains. Horizontal cue is difficult in isolated blind view but labeled ordered progression is coherent."
+    }
+  ],
+  "result": "No hard directional failures. Keep subtle intermediate directions documented."
+}
