@@ -610,5 +610,10 @@
     "Preview GIFs illustrate artwork and do not set actual client timing.",
     "Contact sheet keeps the technical jumping row label for the user-requested tail-wag slot."
   ],
-  "qa_status": "approved-with-documented-warnings"
+  "qa_status": "approved-with-documented-warnings",
+  "frames_archive": {
+    "path": "frames.zip",
+    "sha256": "2b0da757871d50dcb3a78cdb54219e9687950642ba9f015008f88217853574f9",
+    "file_count": 73
+  }
 }
