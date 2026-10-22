@@ -32,3 +32,13 @@ python -m unittest discover -s tests -v
 ~~~
 
 实际检查所有状态与十六方向，包括比例、脚底、方向、遮挡、透明边缘、道具与左右手一致性。新视觉请记录来源、参考和生成工具；不要上传访问令牌、签名下载地址、账号专属 ID、私人 Page 引用或原始聊天记录。
+
+## 动作之间的衔接
+
+修改动作前先读 [状态切换约定](docs/TRANSITIONS.md)。检查动作内部循环、自然三轮回落到 idle、任意帧中断、悬停、拖动反向/松手和注视覆盖。第 0 帧同时是状态入口与减少动态效果画面；不能只检查每行最后一帧。
+
+```bash
+python tools/preview_transitions.py --atlas pets/deepseek-chan/versions/1.0.0/spritesheet.png --output dist/transitions
+```
+
+对比前后版本时增加 `--compare /path/to/before.png`，两版会使用相同的状态事件与客户端快照时长。报告中的轮廓指标只帮助定位跳变，不能代替人工视觉验收，也不能用额外淡化或补间掩盖真实硬切。

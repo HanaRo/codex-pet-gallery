@@ -64,6 +64,8 @@ docs/                                # 安装、复现、播放规则与发布�
 
 后续更新会新增版本目录；其他角色使用新的稳定 id。操作约定见 [贡献与版本管理](CONTRIBUTING.md)。[发布准备](docs/PUBLISHING.md)包含 GitHub 初始化与按角色发布的命令。
 
+制作或修改动画前，先读 [状态切换约定](docs/TRANSITIONS.md)，并用 `tools/preview_transitions.py` 检查动作自然结束、任意帧中断、拖动、悬停和注视覆盖之间的衔接。
+
 ## 来源与许可
 
 这是社区素材项目，与 OpenAI、DeepSeek 无官方隶属或背书关系。当前角色参考用户提供的形象，并参考 DeepSeek Whale-chan 社区项目与“深深”的动作设计。
