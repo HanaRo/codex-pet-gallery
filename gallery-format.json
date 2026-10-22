@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "description": "Project metadata, not a new client sprite-sheet format.",
+  "catalog": "catalog.json",
+  "version_path": "pets/<id>/versions/<version>/",
+  "immutable_versions": true,
+  "atlas_schema": "v2 1536x2288 RGBA, 8 columns, 11 rows, 192x208 cells",
+  "required_frames_by_row": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6,
+    8,
+    8
+  ],
+  "canonical_reproduction_input": "frames from final encoded and edge-cleaned atlas",
+  "qa_policy": "Preserve original human/agent semantic review separately from automated packaging validation."
+}
