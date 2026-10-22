@@ -1,0 +1,12 @@
+{
+  "state": "jumping",
+  "replacement_semantics": "standing tail wag",
+  "user_instruction": "跳跃那组帧可以改为摇尾巴吗，然后尽量把角色放大",
+  "quality_gate_override": {
+    "minimum_jump_lift": 0
+  },
+  "reason": "Explicit user request overrides generic skill jump semantics; structural5frame row and all other quality checks retained.",
+  "pixel_identity_of_fetched_pet_matches_original": true,
+  "tail_mechanics": "Single tail swings behind body, alternately visible on left and right; face, torso and planted feet remain fixed.",
+  "source_resolution_request": "Use original generated source strips for one final downsample; retain full-resolution sources; fixed runtime cells192x208."
+}

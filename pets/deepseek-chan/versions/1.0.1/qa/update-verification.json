@@ -1,0 +1,26 @@
+{
+  "updated": true,
+  "active_selection_preserved": true,
+  "stable_pet_identity_preserved": true,
+  "changed_state": "running",
+  "other_active_frames_unchanged": 67,
+  "idle_tail_wag_and_drag_rows_preserved": true,
+  "stored_pixels_match_final": true,
+  "verified_on": "2026-10-22",
+  "file_sha256": "be535f9abd7aeca27c0c33bd04b4cfe3267dd907de6d29eaca4341aa552b0af1",
+  "rgba_sha256": "64674e1ed187ba8c49a921bb37e8f8e0c725fc82845dc6a49d0697c60d7d0be4",
+  "before_width_px": [
+    156,
+    158
+  ],
+  "after_width_px": [
+    147,
+    149
+  ],
+  "idle_reference_width_px": 150,
+  "after_height_px": [
+    191,
+    192
+  ],
+  "idle_reference_height_px": 191
+}

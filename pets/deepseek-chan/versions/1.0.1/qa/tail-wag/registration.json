@@ -1,0 +1,113 @@
+{
+  "method": "Bundled connected-pose extraction; one shared scale directly from generated high-resolution pixels, one final downsample, integer foot registration; no invented pixels or tweening.",
+  "shared_source_scale": 0.35435992578849723,
+  "target_foot_x": 88.33,
+  "target_baseline_y": 202,
+  "records": [
+    {
+      "frame": 0,
+      "source_bounds": [
+        11,
+        82,
+        427,
+        621
+      ],
+      "translation": [
+        16,
+        9
+      ],
+      "bbox": [
+        17,
+        10,
+        165,
+        202
+      ],
+      "foot_anchor_x": 88.70870870870871,
+      "baseline_y": 202
+    },
+    {
+      "frame": 1,
+      "source_bounds": [
+        444,
+        82,
+        854,
+        621
+      ],
+      "translation": [
+        15,
+        9
+      ],
+      "bbox": [
+        16,
+        10,
+        162,
+        202
+      ],
+      "foot_anchor_x": 88.53846153846153,
+      "baseline_y": 202
+    },
+    {
+      "frame": 2,
+      "source_bounds": [
+        885,
+        82,
+        1300,
+        621
+      ],
+      "translation": [
+        14,
+        9
+      ],
+      "bbox": [
+        15,
+        10,
+        163,
+        202
+      ],
+      "foot_anchor_x": 88.35190615835778,
+      "baseline_y": 202
+    },
+    {
+      "frame": 3,
+      "source_bounds": [
+        1321,
+        82,
+        1731,
+        621
+      ],
+      "translation": [
+        15,
+        9
+      ],
+      "bbox": [
+        16,
+        10,
+        162,
+        202
+      ],
+      "foot_anchor_x": 87.98484848484848,
+      "baseline_y": 202
+    },
+    {
+      "frame": 4,
+      "source_bounds": [
+        1745,
+        82,
+        2160,
+        621
+      ],
+      "translation": [
+        15,
+        9
+      ],
+      "bbox": [
+        16,
+        10,
+        164,
+        202
+      ],
+      "foot_anchor_x": 88.04504504504504,
+      "baseline_y": 202
+    }
+  ]
+}

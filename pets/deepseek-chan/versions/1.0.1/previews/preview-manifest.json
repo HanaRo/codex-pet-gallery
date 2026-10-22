@@ -1,0 +1,19 @@
+{
+  "atlas_sha256": "be535f9abd7aeca27c0c33bd04b4cfe3267dd907de6d29eaca4341aa552b0af1",
+  "client_snapshot": "26.1016.61520 (21421), audited 2026-10-22",
+  "idle_durations_ms": [
+    1680,
+    660,
+    660,
+    840,
+    840,
+    1920
+  ],
+  "state_preview_mode": "one row cycle looped for artwork inspection",
+  "all_states_mode": "one cycle per row; not a business-state scenario",
+  "tail_wag_boundary_mode": "idle entrance hold, three tail-wag cycles, idle first-frame hold",
+  "look_preview_ms_per_direction": 180,
+  "timing_does_not_configure_the_client": true,
+  "synthetic_tween_or_crossfade": false,
+  "mp4_exported": true
+}

@@ -1,0 +1,139 @@
+{
+  "timing": "Same audited client clock for before and after; no blends or tweening.",
+  "unchanged_active_frames": 67,
+  "after_geometry": [
+    {
+      "row": 0,
+      "column": 0,
+      "bbox": [
+        16,
+        11,
+        166,
+        202
+      ],
+      "width": 150,
+      "height": 191
+    },
+    {
+      "row": 4,
+      "column": 0,
+      "bbox": [
+        17,
+        10,
+        165,
+        202
+      ],
+      "width": 148,
+      "height": 192
+    },
+    {
+      "row": 7,
+      "column": 0,
+      "bbox": [
+        18,
+        11,
+        167,
+        202
+      ],
+      "width": 149,
+      "height": 191
+    },
+    {
+      "row": 7,
+      "column": 1,
+      "bbox": [
+        18,
+        11,
+        166,
+        202
+      ],
+      "width": 148,
+      "height": 191
+    },
+    {
+      "row": 7,
+      "column": 2,
+      "bbox": [
+        18,
+        11,
+        167,
+        202
+      ],
+      "width": 149,
+      "height": 191
+    },
+    {
+      "row": 7,
+      "column": 3,
+      "bbox": [
+        18,
+        10,
+        166,
+        202
+      ],
+      "width": 148,
+      "height": 192
+    },
+    {
+      "row": 7,
+      "column": 4,
+      "bbox": [
+        19,
+        11,
+        166,
+        202
+      ],
+      "width": 147,
+      "height": 191
+    },
+    {
+      "row": 7,
+      "column": 5,
+      "bbox": [
+        18,
+        10,
+        165,
+        202
+      ],
+      "width": 147,
+      "height": 192
+    }
+  ],
+  "running_to_idle_after": [
+    {
+      "alpha_iou": 0.9567,
+      "bbox_center_delta_px": 1.5,
+      "baseline_delta_px": 0
+    },
+    {
+      "alpha_iou": 0.9555,
+      "bbox_center_delta_px": 1.0,
+      "baseline_delta_px": 0
+    },
+    {
+      "alpha_iou": 0.9592,
+      "bbox_center_delta_px": 1.5,
+      "baseline_delta_px": 0
+    },
+    {
+      "alpha_iou": 0.9511,
+      "bbox_center_delta_px": 1.118,
+      "baseline_delta_px": 0
+    },
+    {
+      "alpha_iou": 0.9444,
+      "bbox_center_delta_px": 1.5,
+      "baseline_delta_px": 0
+    },
+    {
+      "alpha_iou": 0.9472,
+      "bbox_center_delta_px": 0.707,
+      "baseline_delta_px": 0
+    }
+  ],
+  "cases": {
+    "eating-width-comparison": 6180,
+    "running-tail-wag-return": 3320,
+    "running-all-phase-idle": 6000
+  }
+}

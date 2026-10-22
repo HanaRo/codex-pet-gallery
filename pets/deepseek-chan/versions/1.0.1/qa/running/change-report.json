@@ -1,0 +1,12 @@
+{
+  "changed_states": [
+    "running"
+  ],
+  "changed_rows": [
+    7
+  ],
+  "unchanged_active_frames": 67,
+  "idle_tail_wag_and_drag_rows_preserved": true,
+  "final_sha256": "be535f9abd7aeca27c0c33bd04b4cfe3267dd907de6d29eaca4341aa552b0af1",
+  "method": "Regenerated six eating poses correct inflated head/hair/fin outline to match hungry idle; one shared isotropic high-resolution source scale, single final downsample and integer foot registration. No anisotropic squeeze, warp, crossfade or synthetic intermediate frames."
+}

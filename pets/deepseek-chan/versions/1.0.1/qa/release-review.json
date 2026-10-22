@@ -1,0 +1,18 @@
+{
+  "reviewed_on": "2026-10-22",
+  "atlas_sha256": "be535f9abd7aeca27c0c33bd04b4cfe3267dd907de6d29eaca4341aa552b0af1",
+  "scope": "Final encoded atlas, contact sheet, all-state and state previews; source-phase interruptions; running/idle/tail-wag transitions.",
+  "observations": [
+    "Hungry idle retains six offering-bowl poses including full blink.",
+    "Drag rows retain approved dangling legs, small body sway and bilateral tail wag; left mirrors each right cell without reversing time.",
+    "Standing tail-wag keeps the bowl, face and planted feet shared with hungry idle.",
+    "Eating widths are 147-149 px versus idle 150 px; height 191-192 px versus idle 191 px, alpha threshold 16; baseline 202.",
+    "Forty other active frames, including all sixteen look cells, are exact pixels from 1.0.0."
+  ],
+  "retained_limits": [
+    "Look rows and some business states retain the original empty-handed pose; prop changes remain possible.",
+    "Mirrored drag grab points can shift laterally on reversal; there is no client landing row.",
+    "The client hard-cuts state changes and normally falls back after three non-idle cycles."
+  ],
+  "status": "approved-with-documented-warnings"
+}

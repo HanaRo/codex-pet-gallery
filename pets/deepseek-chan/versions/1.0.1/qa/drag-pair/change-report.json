@@ -1,0 +1,18 @@
+{
+  "changed_rows": [
+    1,
+    2
+  ],
+  "changed_states": [
+    "running-right",
+    "running-left"
+  ],
+  "new_frames": 16,
+  "unchanged_frames": 57,
+  "other_rows_pixel_identical": true,
+  "idle_preserved_from_installed": true,
+  "look_semantics_inherited_by_pixel_identity": true,
+  "left_derivation": "Per-cell horizontal mirror preserving frame order",
+  "final_sha256": "fb99f80d9279efeb06c1b426522f6823dd7acad8bbb64030a4a908eaf988a773",
+  "previous_sha256": "fa1d3107364bd93c8931dd95f7774565353898d9c83dfd7a6d32cadf189e978d"
+}

@@ -1,0 +1,95 @@
+{
+  "method": "Shared source-row scale followed by integer translation; no redrawing, warping or synthetic tweening. Feet matched to original x=88, baseline=202.",
+  "frames": [
+    {
+      "frame": 0,
+      "integer_translation": [
+        -5,
+        1
+      ],
+      "bbox": [
+        14,
+        8,
+        168,
+        204
+      ],
+      "shared_scale_from_extraction": true,
+      "foot_center_before": 93.33040935672514
+    },
+    {
+      "frame": 1,
+      "integer_translation": [
+        -4,
+        1
+      ],
+      "bbox": [
+        16,
+        6,
+        168,
+        204
+      ],
+      "shared_scale_from_extraction": true,
+      "foot_center_before": 91.7551622418879
+    },
+    {
+      "frame": 2,
+      "integer_translation": [
+        -4,
+        1
+      ],
+      "bbox": [
+        16,
+        8,
+        167,
+        204
+      ],
+      "shared_scale_from_extraction": true,
+      "foot_center_before": 92.20869565217392
+    },
+    {
+      "frame": 3,
+      "integer_translation": [
+        -5,
+        1
+      ],
+      "bbox": [
+        14,
+        9,
+        168,
+        204
+      ],
+      "shared_scale_from_extraction": true,
+      "foot_center_before": 92.85588235294118
+    },
+    {
+      "frame": 4,
+      "integer_translation": [
+        -3,
+        1
+      ],
+      "bbox": [
+        17,
+        8,
+        168,
+        204
+      ],
+      "shared_scale_from_extraction": true,
+      "foot_center_before": 91.27696793002916
+    },
+    {
+      "frame": 5,
+      "integer_translation": [
+        -5,
+        1
+      ],
+      "bbox": [
+        15,
+        8,
+        167,
+        204
+      ],
+      "shared_scale_from_extraction": true,
+      "foot_center_before": 92.51928783382789
+    }
+  ]
+}

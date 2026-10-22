@@ -5,9 +5,10 @@
     {
       "id": "deepseek-chan",
       "display_name": "DeepSeek 娘",
-      "latest": "1.0.0",
+      "latest": "1.0.1",
       "versions": {
-        "1.0.0": "pets/deepseek-chan/versions/1.0.0/manifest.json"
+        "1.0.0": "pets/deepseek-chan/versions/1.0.0/manifest.json",
+        "1.0.1": "pets/deepseek-chan/versions/1.0.1/manifest.json"
       }
     }
   ]

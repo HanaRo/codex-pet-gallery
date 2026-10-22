@@ -1,0 +1,694 @@
+{
+  "schema_version": 1,
+  "id": "deepseek-chan",
+  "display_name": "DeepSeek 娘",
+  "version": "1.0.1",
+  "release_date": "2026-10-22",
+  "description": "蓝发 Q 版女仆 DeepSeek 娘，爱思考也爱干饭。",
+  "sprite_version": 2,
+  "atlas": {
+    "file": "spritesheet.png",
+    "sha256": "be535f9abd7aeca27c0c33bd04b4cfe3267dd907de6d29eaca4341aa552b0af1",
+    "rgba_sha256": "64674e1ed187ba8c49a921bb37e8f8e0c725fc82845dc6a49d0697c60d7d0be4",
+    "width": 1536,
+    "height": 2288,
+    "cell_width": 192,
+    "cell_height": 208,
+    "columns": 8,
+    "rows": 11,
+    "required_frames": 73,
+    "unused_cells": 15
+  },
+  "rows": [
+    {
+      "row": 0,
+      "state": "idle",
+      "frame_count": 6,
+      "visual": "捧空碗等饭、呼吸与眨眼",
+      "frames": [
+        {
+          "path": "frames/idle/00.png",
+          "sha256": "a6f378df5f1714492653d351faec9bb3829b234fde790fde8428bbf0ea8b6f90"
+        },
+        {
+          "path": "frames/idle/01.png",
+          "sha256": "e616b46ab6a0227b3545116d87b747baf086c213046ec99df60fa96b678ced3a"
+        },
+        {
+          "path": "frames/idle/02.png",
+          "sha256": "a8a93fd75b6498241fa5a78f1599bf8d4dbd70bd113cc96a6dc41302803e3685"
+        },
+        {
+          "path": "frames/idle/03.png",
+          "sha256": "65aca1fd9d1ee24e32170231ce7a48ca1188d79a30ced553f86342e393d6a80a"
+        },
+        {
+          "path": "frames/idle/04.png",
+          "sha256": "d9bd0393f28437b096cb429a4ae31a8fcb5ac9d505f0cc8a321d8adefc7fe3ea"
+        },
+        {
+          "path": "frames/idle/05.png",
+          "sha256": "2dc384f06e7b2872f5e2f12306dc8c1b25dd157350af7d762ecdb633bd3fca5b"
+        }
+      ],
+      "observed_client_cycle_ms": 6600,
+      "observed_client_frame_durations_ms": [
+        1680,
+        660,
+        660,
+        840,
+        840,
+        1920
+      ]
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "frame_count": 8,
+      "visual": "向右拖动时被揪起、晃腿摆尾与轻微身体晃动",
+      "frames": [
+        {
+          "path": "frames/running-right/00.png",
+          "sha256": "1c4144ac296f014301617fc6262c2f9f820180ff5c9a98eb48290660dd0b00f7"
+        },
+        {
+          "path": "frames/running-right/01.png",
+          "sha256": "3c4406ae067496d23423e0cfcbd78d65c5c02179dbe338d3d7eb143e7e33f41a"
+        },
+        {
+          "path": "frames/running-right/02.png",
+          "sha256": "f2055a0c9fd88370bc7b2b315e6e4dee0405c78ffc2c99832121ddd252ca8653"
+        },
+        {
+          "path": "frames/running-right/03.png",
+          "sha256": "00d87438602653b00e048314f7ddde16374d2973be873741b23fb1fdf01f2364"
+        },
+        {
+          "path": "frames/running-right/04.png",
+          "sha256": "f390a27899ba828e41ceb329967612de47b80bb6d613d510feffc062d5afbefe"
+        },
+        {
+          "path": "frames/running-right/05.png",
+          "sha256": "d47a3524df0c3e9287384915c00de2dd346056679a986850ae78c5cd74211758"
+        },
+        {
+          "path": "frames/running-right/06.png",
+          "sha256": "c496ac9ef33014e28130b0ac76474e8b84a400b2592bca739555525b2f3c3357"
+        },
+        {
+          "path": "frames/running-right/07.png",
+          "sha256": "7ea15197a7a711477a2bb1c6d4219a0993120cbf509a8371d2f238d752061634"
+        }
+      ],
+      "observed_client_cycle_ms": 1060
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "frame_count": 8,
+      "visual": "向左拖动时被揪起、晃腿摆尾与轻微身体晃动",
+      "frames": [
+        {
+          "path": "frames/running-left/00.png",
+          "sha256": "1931e30dc30748bbe79aa30ce26e959c8dbd8dcbade1d6d07baed51d354986a5"
+        },
+        {
+          "path": "frames/running-left/01.png",
+          "sha256": "1d094f1af7fa8fb5860df32a9203cd6425c9b24348ece7aeb184481f17ebbdc8"
+        },
+        {
+          "path": "frames/running-left/02.png",
+          "sha256": "e96f536c3d6506d47b1fc3da22e1201e85eff81f59b0528aaad639f1a8e205a6"
+        },
+        {
+          "path": "frames/running-left/03.png",
+          "sha256": "2846563b1068a47a1c985d3775996949fa71143ad4eb7f1568dbdd85b86001d5"
+        },
+        {
+          "path": "frames/running-left/04.png",
+          "sha256": "831bea0c9a06625dcbeccdcb51bff73531173324261799600e01612923facc28"
+        },
+        {
+          "path": "frames/running-left/05.png",
+          "sha256": "59e5d1c84516867c097360fb9a56d5b20b3ea1d31a6269fa2721b824f6acd868"
+        },
+        {
+          "path": "frames/running-left/06.png",
+          "sha256": "5c642cfb3af1c80fc49e3b7212a15db9bb232e62196374cc1cf7a8978af239b7"
+        },
+        {
+          "path": "frames/running-left/07.png",
+          "sha256": "dcd678f5cd2f5a5bf9d28b7e95a6b955df0abdbab3d7342ae9cfd2706bfaa598"
+        }
+      ],
+      "observed_client_cycle_ms": 1060
+    },
+    {
+      "row": 3,
+      "state": "waving",
+      "frame_count": 4,
+      "visual": "挥手打招呼",
+      "frames": [
+        {
+          "path": "frames/waving/00.png",
+          "sha256": "8bfa42f143224a88271be8516d9591d988a264819e88c36b3da11d3384e953e3"
+        },
+        {
+          "path": "frames/waving/01.png",
+          "sha256": "ef43a1beebca0f6eb5049e35b31e594f9f6f3d426841473081a138b044e35dc6"
+        },
+        {
+          "path": "frames/waving/02.png",
+          "sha256": "e8c3982686c612cda9ed6e4088d59be2ea7c0bd6d2fa2c8406f301301b5217cf"
+        },
+        {
+          "path": "frames/waving/03.png",
+          "sha256": "bf4df3bb026f1b32fad6751c9f706dea371ea5efa0f47c9d48138d8c50dec708"
+        }
+      ],
+      "observed_client_cycle_ms": 700
+    },
+    {
+      "row": 4,
+      "state": "jumping",
+      "frame_count": 5,
+      "visual": "捧碗站立左右摇尾巴",
+      "frames": [
+        {
+          "path": "frames/jumping/00.png",
+          "sha256": "c428338c1876a429bb153a82bf51e5ec045422176936cf1dcbc8899b52c22c44"
+        },
+        {
+          "path": "frames/jumping/01.png",
+          "sha256": "a3893de24e641f653a5eceee1cb84f20dfb6a32683384d8b58744e273e74f7fd"
+        },
+        {
+          "path": "frames/jumping/02.png",
+          "sha256": "04b4374b4e11991c53cf6158117830a612481d3ad26d89e723dbcd3cd5f782e2"
+        },
+        {
+          "path": "frames/jumping/03.png",
+          "sha256": "ce6becc6d88087fd564b6add648598cd4a23754b20466535db337593560e0a59"
+        },
+        {
+          "path": "frames/jumping/04.png",
+          "sha256": "87330f6e5efcb3080ec5c74c9b6e1e6f17e2d9e8bc851cf6f426c6173cc55c1c"
+        }
+      ],
+      "observed_client_cycle_ms": 840
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "frame_count": 8,
+      "visual": "沮丧、低头后恢复",
+      "frames": [
+        {
+          "path": "frames/failed/00.png",
+          "sha256": "3b66aa4b28615f41c66a0a9b709dc26c1ca0f2a8d83d760746da34286fa70cfb"
+        },
+        {
+          "path": "frames/failed/01.png",
+          "sha256": "d51c12b9af221b9147a1f8292e79fb890cde9a7bb5c21bc931a7a84cadf7cc1a"
+        },
+        {
+          "path": "frames/failed/02.png",
+          "sha256": "c6e3584f4574ecfdf5b445e95c58225285085eb6c7ce7134a80c2f9ee8110d54"
+        },
+        {
+          "path": "frames/failed/03.png",
+          "sha256": "a942c22fb769d27b4df4d2d40939581a3c814b754560e88ceb77d05007c427b2"
+        },
+        {
+          "path": "frames/failed/04.png",
+          "sha256": "891124aca5bcceac3b50fa6104558023d1337c448416876c596c4bcdd2edbc90"
+        },
+        {
+          "path": "frames/failed/05.png",
+          "sha256": "2b426d0b01389485ce7bc3974024a053c341fc5dd23017a747ab4eacca7c5f45"
+        },
+        {
+          "path": "frames/failed/06.png",
+          "sha256": "25e705e7e18f63b7f1db62f7e2fda4dae212491c8f805c7b1f7ba6d2267bc21a"
+        },
+        {
+          "path": "frames/failed/07.png",
+          "sha256": "5ebcca1d951b60cab79880348517bfe458c87f00439761c3b7304b88ef18a12b"
+        }
+      ],
+      "observed_client_cycle_ms": 1220
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "frame_count": 6,
+      "visual": "捧碗等待与张望",
+      "frames": [
+        {
+          "path": "frames/waiting/00.png",
+          "sha256": "e206de59e026b8a3515e272357f2cd0c8214a659078e4d215b26d4a4484cdfea"
+        },
+        {
+          "path": "frames/waiting/01.png",
+          "sha256": "1589d1611e49d21dd000adf9fb10310168f89b7478c50abaf8f1fc0f70e5a566"
+        },
+        {
+          "path": "frames/waiting/02.png",
+          "sha256": "332476f3436aae7c67bb7b77f4c824bce059cb12ad2ac7325cf8b3fc8226b856"
+        },
+        {
+          "path": "frames/waiting/03.png",
+          "sha256": "3aea8da621e385dd5696d6bd3bba5f3f9808b5015f13440965aa9b4c04fd4bd2"
+        },
+        {
+          "path": "frames/waiting/04.png",
+          "sha256": "db42f2fe80df5271a63a64b0785ac8dac66b3da6697701b7c256f15738522813"
+        },
+        {
+          "path": "frames/waiting/05.png",
+          "sha256": "7124d22fc8fb1c7417174fb3c9e4c102aff43f1cd259436a965afae5ce40d948"
+        }
+      ],
+      "observed_client_cycle_ms": 1010
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "frame_count": 6,
+      "visual": "端碗扒饭，头发与鳍耳比例对齐 idle",
+      "frames": [
+        {
+          "path": "frames/running/00.png",
+          "sha256": "1471200b06a58dc076998cb009da79afecf003fbace29f722b09fd9b136390e1"
+        },
+        {
+          "path": "frames/running/01.png",
+          "sha256": "84db716ba463bcbc4b45b42fb1a2c49af1641e58611d1949923f50a46a6bdf6b"
+        },
+        {
+          "path": "frames/running/02.png",
+          "sha256": "1660f66af29d995073e48e958ebcad6fa8c3a2e494750b62226a54139c8a8eb8"
+        },
+        {
+          "path": "frames/running/03.png",
+          "sha256": "758384ab0f22311709626da7d34a30a14229a4a05c80ec6fd78ccce4fde6ce43"
+        },
+        {
+          "path": "frames/running/04.png",
+          "sha256": "7e49cb9b9c31073442faa8ee1962cb87c83b0db5814d934c48da7df0f79dd8ee"
+        },
+        {
+          "path": "frames/running/05.png",
+          "sha256": "761bd18ff16b3ac82dc5a55d125a3b94cc35d661d6435269d85e737f4af952b7"
+        }
+      ],
+      "observed_client_cycle_ms": 820
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "frame_count": 6,
+      "visual": "托腮、歪头检查",
+      "frames": [
+        {
+          "path": "frames/review/00.png",
+          "sha256": "03e65b80dd98ac8460430850ff82c251c8245bd2a20a3cddef7d50cd5abc9833"
+        },
+        {
+          "path": "frames/review/01.png",
+          "sha256": "1599215424b1e149464e7e3626ec3e93e25956cb1c9a28197f07f24258ba15be"
+        },
+        {
+          "path": "frames/review/02.png",
+          "sha256": "ce7420fedeccf4031d4897464ad4818b33a248b98b162a10274e12c237cf4501"
+        },
+        {
+          "path": "frames/review/03.png",
+          "sha256": "d28a978deb9da507dfd924ce1a1e97e03ad2247640646815c82d1ac63832d785"
+        },
+        {
+          "path": "frames/review/04.png",
+          "sha256": "f40cf4c25c7583764288b2f49de877fb736c8e074069b0eb747af16e531c8dc4"
+        },
+        {
+          "path": "frames/review/05.png",
+          "sha256": "dcab26caa4a8236693d9a6fc1d072ed87989fb38ca72297ae4f35313c2cdec66"
+        }
+      ],
+      "observed_client_cycle_ms": 1030
+    },
+    {
+      "row": 9,
+      "state": "look-row-9",
+      "frame_count": 8,
+      "visual": "注视方向 000°–157.5°",
+      "frames": [
+        {
+          "path": "frames/look-row-9/00.png",
+          "sha256": "c0c8635a97382d064afe2dee0364901e3bb6a9cd80dc551affc8f5453aff112d"
+        },
+        {
+          "path": "frames/look-row-9/01.png",
+          "sha256": "e5dc92a492356ffc2f37863523d8ae962e745978fd97edb6c0ef7e0506b9769b"
+        },
+        {
+          "path": "frames/look-row-9/02.png",
+          "sha256": "6d62d169ca2ec73d24301e0331612064bae16d3c1bc3f2bb58969fdc8cd91250"
+        },
+        {
+          "path": "frames/look-row-9/03.png",
+          "sha256": "a0cd54ed9829d31aabac50a4d50afb9e108ef0a87704c43f5f5a9853e0bf98b5"
+        },
+        {
+          "path": "frames/look-row-9/04.png",
+          "sha256": "c24c6e47825994d3608223eb77e1b7e8584eceb282bf65c9765bc1733638fdd5"
+        },
+        {
+          "path": "frames/look-row-9/05.png",
+          "sha256": "e0413b78345b54b3cda216b75ad02f602b890890948fc80d340d89d8f548712b"
+        },
+        {
+          "path": "frames/look-row-9/06.png",
+          "sha256": "2d9c3bfc028d3ecbf1c34185183634708915506cc9b2e10f7774216c7b2f50c6"
+        },
+        {
+          "path": "frames/look-row-9/07.png",
+          "sha256": "4be832785cc2297d936eb8236fdf21b8c48565153bd50f8cb538d7c6254d6870"
+        }
+      ],
+      "directions_degrees": [
+        0.0,
+        22.5,
+        45.0,
+        67.5,
+        90.0,
+        112.5,
+        135.0,
+        157.5
+      ]
+    },
+    {
+      "row": 10,
+      "state": "look-row-10",
+      "frame_count": 8,
+      "visual": "注视方向 180°–337.5°",
+      "frames": [
+        {
+          "path": "frames/look-row-10/00.png",
+          "sha256": "64974241e702d121031c1fb878e8cdfce6cf44f7e49a1ff55c6371e10523b981"
+        },
+        {
+          "path": "frames/look-row-10/01.png",
+          "sha256": "a2dc1c02ed3f2595038c8717741df88dd80d4aedd801ee3c85365e230d6b91b2"
+        },
+        {
+          "path": "frames/look-row-10/02.png",
+          "sha256": "28f2a32551365ec806fafeb6f04da4421cfb8a1dd868b91b3473ff2f1b74ff08"
+        },
+        {
+          "path": "frames/look-row-10/03.png",
+          "sha256": "00f12aace420348be792ca3a55a0cff6c88db203be9bde338d6cb09359be0f99"
+        },
+        {
+          "path": "frames/look-row-10/04.png",
+          "sha256": "d3b887cc01e167682ae0783d2e525718def27fd19f29d7d4fd99084248131662"
+        },
+        {
+          "path": "frames/look-row-10/05.png",
+          "sha256": "04649f7e9bd1230ba684f90a1e3f631a1268b4a4af4b9514a4448df877ee2a36"
+        },
+        {
+          "path": "frames/look-row-10/06.png",
+          "sha256": "bb5709981418aaa604381fd52f48a9f30eb4dbff4f087b53692aa4be32700a9d"
+        },
+        {
+          "path": "frames/look-row-10/07.png",
+          "sha256": "357e9daca36c776f3e4adb3f1335b01906893f990db043f9baa5e93c81eff8c5"
+        }
+      ],
+      "directions_degrees": [
+        180.0,
+        202.5,
+        225.0,
+        247.5,
+        270.0,
+        292.5,
+        315.0,
+        337.5
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "sources/generation-plan-1.0.0.json",
+      "sha256": "348fd8a987128f093f67799ccfcf2f1c609e977fcdf6537851dd45333e2c98c1",
+      "bytes": 3334
+    },
+    {
+      "path": "sources/generation-plan.json",
+      "sha256": "7b86b553e15e4104a92ae66a0610e279a39a6dc115528c81d7cd5965a139b40a",
+      "bytes": 2670
+    },
+    {
+      "path": "sources/history/atlas-before-running-width-correction.png",
+      "sha256": "80a6df6792c2f6b4fd122af4b06faa9b6bbaa3ef2b670ec6a3d4c2befb44d524",
+      "bytes": 4004871
+    },
+    {
+      "path": "sources/history/running-before-width-correction-prompt.md",
+      "sha256": "5903a4d62e20a03fa56af1906e893b965266784dc77135752566e0b66c77a518",
+      "bytes": 3478
+    },
+    {
+      "path": "sources/history/running-before-width-correction.png",
+      "sha256": "1eb3ff1103c8f4af1688674d1a5f031fc8193092c78b47053f4c2a23487387a8",
+      "bytes": 1888697
+    },
+    {
+      "path": "sources/prompts/base-pet.md",
+      "sha256": "cefce92625292f2851b649cd41099913ab57fcd15b3e073988a36e604a54d644",
+      "bytes": 1696
+    },
+    {
+      "path": "sources/prompts/failed.md",
+      "sha256": "9444b5084115ae18a9f89ed2cc731a68ffec3d00b86c25e26cdf687e3a6d7a49",
+      "bytes": 2790
+    },
+    {
+      "path": "sources/prompts/idle.md",
+      "sha256": "4dd6b46e3c3079ebcf00e6f9ff5a3d170688ef5bdba08c1d21cb57a53a4dfc4c",
+      "bytes": 2516
+    },
+    {
+      "path": "sources/prompts/jumping.md",
+      "sha256": "006c851ddcdbc4df7f31cffcec5f4932732d1c2714c39d7bb81d220588d14870",
+      "bytes": 3099
+    },
+    {
+      "path": "sources/prompts/look-cardinals.md",
+      "sha256": "0b95b422554710e65955d860842b36ba7970ae460fcbea4790298351deca6395",
+      "bytes": 1435
+    },
+    {
+      "path": "sources/prompts/look-row-10.md",
+      "sha256": "1fcca7f0e113fc9c1ae7c2cee4a85b7fa9a35b86747f16f51712244270044b8d",
+      "bytes": 4766
+    },
+    {
+      "path": "sources/prompts/look-row-9.md",
+      "sha256": "8b8033be7f3a91d712c34bf82d357132f3afbb2a684827d13091d545c0f9a2fb",
+      "bytes": 4696
+    },
+    {
+      "path": "sources/prompts/review.md",
+      "sha256": "3cbd630eaefb6ff52222ac73adbfccb4e42b624250dba9e9b135f19698644d49",
+      "bytes": 2674
+    },
+    {
+      "path": "sources/prompts/running-left.md",
+      "sha256": "531f745f68470e1964d30ac27e460fab6c6b2bb32f4b7defed982ab5203956f4",
+      "bytes": 415
+    },
+    {
+      "path": "sources/prompts/running-right.md",
+      "sha256": "dcbf9994f092861937bc103a3145d1789a84b6b59035014b0fe41df2d8b07630",
+      "bytes": 2819
+    },
+    {
+      "path": "sources/prompts/running.md",
+      "sha256": "d0060326703270923f15477fdaa8923c90d0e2bbae0d895f1540cbe175ddcce0",
+      "bytes": 3553
+    },
+    {
+      "path": "sources/prompts/waiting.md",
+      "sha256": "5480d6fdfd040c26dc0c1ee1648992525bae04831a03eb8a5f18198501cefee9",
+      "bytes": 3116
+    },
+    {
+      "path": "sources/prompts/waving.md",
+      "sha256": "822caba7d70eb0053ab9f98d0922c55c5f3c217849a9b14828a62a419a376ccd",
+      "bytes": 2597
+    },
+    {
+      "path": "sources/references/approved-cardinals.png",
+      "sha256": "02905db8a38ea82fa3232325603e5cce6bf7108104b9b218c712a8b4ae9cbec4",
+      "bytes": 226707
+    },
+    {
+      "path": "sources/references/canonical-base.png",
+      "sha256": "fdc86e76a724788e6bd8fe31f873ac500c411e5651ff2bde724c42e1528f170c",
+      "bytes": 1805842
+    },
+    {
+      "path": "sources/references/hungry-concept.png",
+      "sha256": "7f873c4dd6135910830bfc46bfa87c74c30146cd3d40744c7c0a4d1cc6c4146a",
+      "bytes": 1673234
+    },
+    {
+      "path": "sources/references/hungry-idle-canonical.png",
+      "sha256": "ebb33aafaaa253b3c1d585ee8adea7d969a37efedcf4b296df45871a1c84b764",
+      "bytes": 221289
+    },
+    {
+      "path": "sources/references/look-cardinals.png",
+      "sha256": "bd0faf2905f43c6e04887750917abaad030059b9db8e90e7ced50723ecb67fab",
+      "bytes": 2154734
+    },
+    {
+      "path": "sources/references/meal-base.png",
+      "sha256": "21073faa60c09885580f8e206ba12fcd9d4b881827e3b447381262a77d14656a",
+      "bytes": 1832171
+    },
+    {
+      "path": "sources/references/picked-concept.png",
+      "sha256": "19d093e3b01653c0a6c267c1f045b6c9b47e32a83882455e0737cba2a7bcbff9",
+      "bytes": 1838179
+    },
+    {
+      "path": "sources/references/picked-tail-center.png",
+      "sha256": "51301911c98d6f53cc69e063f1510a16cc035adfa10503ebcf3f7d98db9bd186",
+      "bytes": 169951
+    },
+    {
+      "path": "sources/references/picked-tail-left.png",
+      "sha256": "efa71c09e5120decc0f742aa0279056797449c8cb789ca97adcf7f0bdec12107",
+      "bytes": 174997
+    },
+    {
+      "path": "sources/references/picked-tail-right.png",
+      "sha256": "e13849cdb58b46849e863f6581d58aef2fdad8ee0fe43896a3e15dda581fbc7d",
+      "bytes": 176438
+    },
+    {
+      "path": "sources/references/user-supplied-reference.png",
+      "sha256": "001dfa0ca189d8c924b7234a548736edbce088828bfe98de328d77ffc9c6483e",
+      "bytes": 229406
+    },
+    {
+      "path": "sources/strips/failed.png",
+      "sha256": "0baa66806e20d1482ef25017a5d43aef9f36aa47aca2b61ecdb7b9ea7d03be54",
+      "bytes": 1839288
+    },
+    {
+      "path": "sources/strips/idle.png",
+      "sha256": "58ff48474f782cc509a3b556b9291b603228b64f4d9c3f294d9db701eb1b3397",
+      "bytes": 1803305
+    },
+    {
+      "path": "sources/strips/jumping.png",
+      "sha256": "052a898e5ac510573d4086e19c22a84d6575f161f7fe50746ec73326895515ba",
+      "bytes": 2037025
+    },
+    {
+      "path": "sources/strips/look-row-10.png",
+      "sha256": "bc8d97b74338f7791deea65cb9d4f0426ee40772781db09eeebb1245c52f2bcf",
+      "bytes": 1361441
+    },
+    {
+      "path": "sources/strips/look-row-9.png",
+      "sha256": "07b35c0d9034fffc22ceaf1ed2af87cb39b0fafb3f666d1941870ef0d8c33107",
+      "bytes": 1654648
+    },
+    {
+      "path": "sources/strips/review.png",
+      "sha256": "dda61877a6a736a1ca95875228181b29ed7b185e3f33f7ccd2a6685fe997eba6",
+      "bytes": 1899392
+    },
+    {
+      "path": "sources/strips/running-left.png",
+      "sha256": "714c91a99b09e82ed8af4a2e68891a61f6413509bf3be1cc09e25708d8825576",
+      "bytes": 391028
+    },
+    {
+      "path": "sources/strips/running-right.png",
+      "sha256": "b3ef919a13353b1f83fffda415e999db923b9719ae823f14b913e0580b253706",
+      "bytes": 1755735
+    },
+    {
+      "path": "sources/strips/running.png",
+      "sha256": "d1eebbbad076749a6bc8d83ed38364fcdc5397a49ead884185547cd153abf83f",
+      "bytes": 1866049
+    },
+    {
+      "path": "sources/strips/waiting.png",
+      "sha256": "6d7dfd8c46f06db0d66ece28f086a162109e6ec88ff4802272e203017ef5b637",
+      "bytes": 2048496
+    },
+    {
+      "path": "sources/strips/waving.png",
+      "sha256": "c35de57273d44c77cd5fbe8f42a8498e385ea86278611c116329bac509a82802",
+      "bytes": 1942138
+    }
+  ],
+  "overrides": [
+    {
+      "state": "jumping",
+      "default_semantics": "vertical jump",
+      "release_semantics": "standing bilateral tail wag behind body while holding bowl",
+      "requested_by_user": true
+    },
+    {
+      "state": "running-right",
+      "default_semantics": "directional drag movement",
+      "release_semantics": "picked up by ahoge, dangling legs, gentle body sway and bilateral tail wag, holding bowl",
+      "requested_by_user": true
+    },
+    {
+      "state": "running-left",
+      "default_semantics": "directional drag movement",
+      "release_semantics": "picked up by ahoge, dangling legs, gentle body sway and bilateral tail wag, holding bowl",
+      "requested_by_user": true
+    }
+  ],
+  "frames_archive": {
+    "path": "frames.zip",
+    "sha256": "80835a9893b4dc9555b79cd3a9188886d623d76f7d0769e95ed22cda21bcb8a7",
+    "file_count": 73
+  },
+  "generation": {
+    "provider": "OpenAI image generation via Codex imagegen tool",
+    "model_identifier": "not recorded by the tool response",
+    "random_seed": "not recorded",
+    "exact_ai_regeneration": false,
+    "original_workflow": "Pets plugin 0.1.6, bundled extraction/inspection/look-registration/despill/quality gates, plus integer-only foot registration.",
+    "current_workflow": "Five changed state rows; generated sources use shared isotropic registration and one edge-cleanup pass per new row. Left drag is derived by per-cell mirror. All final native cells are frozen in frames.zip."
+  },
+  "qa_status": "approved-with-documented-warnings",
+  "asset_license_status": "not-selected; third-party reference rights not established by this project",
+  "visual_warnings": [
+    "Some intermediate look cues remain subtle; look pixels are unchanged from 1.0.0 and retain the documented semantic warnings.",
+    "Look rows and some business states retain empty-handed poses; bowl visibility can change on those cuts.",
+    "Mirroring drag cells also mirrors the local grab point; direction reversal and drag release can still snap.",
+    "Previews illustrate artwork and the audited desktop timing snapshot; images do not configure client behavior."
+  ],
+  "artwork_completed_date": "2026-10-22",
+  "runtime_profile": "docs/PLAYBACK.md",
+  "transition_profile": "docs/TRANSITIONS.md",
+  "based_on": "1.0.0",
+  "reproduction": {
+    "install_exact_bytes": true,
+    "assemble_exact_rgba": true,
+    "server_download_rgba_verified_on": "2026-10-22",
+    "server_download_rgba_equal": true
+  }
+}

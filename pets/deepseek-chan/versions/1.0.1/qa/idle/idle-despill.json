@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "input": "historical-run/work/deepseek-chan-hungry-idle/idle-row-raw.png",
+  "output": "historical-run/work/deepseek-chan-hungry-idle/idle-row-clean.png",
+  "chroma_key": "#00FF00",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 5,
+  "spill_tolerance": 0.15,
+  "minimum_saturation": 0.1,
+  "changed_pixels": 11385,
+  "decontaminated_pixels": 11103,
+  "spill_suppressed_pixels": 11385,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c1": 1914,
+    "r0c4": 1913,
+    "r0c0": 1910,
+    "r0c3": 1886,
+    "r0c5": 1883,
+    "r0c2": 1879
+  },
+  "alpha_preserved": true
+}

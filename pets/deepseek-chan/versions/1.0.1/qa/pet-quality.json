@@ -1,0 +1,69 @@
+{
+  "ok": true,
+  "atlas": "historical-run/outputs/deepseek-chan-running-scale/spritesheet.png",
+  "encoded_bytes": 3864287,
+  "sha256": "be535f9abd7aeca27c0c33bd04b4cfe3267dd907de6d29eaca4341aa552b0af1",
+  "jump": {
+    "idle_baseline": 202,
+    "jump_baselines": [
+      202,
+      202,
+      202,
+      202,
+      202
+    ],
+    "airborne_lift_pixels": 0,
+    "landing_delta_pixels": 0
+  },
+  "look_registration": {
+    "neutral_center_x": 91.0,
+    "look_centers_x": [
+      93.0,
+      91.0,
+      90.5,
+      92.5,
+      92.5,
+      92.5,
+      92.5,
+      93.0,
+      92.5,
+      97.0,
+      97.5,
+      100.0,
+      103.5,
+      102.5,
+      101.5,
+      93.5
+    ],
+    "look_widths": [
+      136,
+      132,
+      131,
+      129,
+      127,
+      125,
+      125,
+      130,
+      137,
+      130,
+      131,
+      130,
+      129,
+      129,
+      131,
+      141
+    ],
+    "maximum_center_drift_pixels": 12.5,
+    "maximum_width_ratio": 1.128
+  },
+  "errors": [],
+  "warnings": [
+    "look direction 067.5 accepted with a reviewed warning",
+    "look direction 112.5 accepted with a reviewed warning",
+    "look direction 157.5 accepted with a reviewed warning",
+    "look direction 247.5 accepted with a reviewed warning",
+    "look direction 337.5 accepted with a reviewed warning",
+    "000->022.5 diff is a local outlier (2930 pixels vs neighbor average 1698)",
+    "315->337.5 diff is a local outlier (2758 pixels vs neighbor average 1837)"
+  ]
+}

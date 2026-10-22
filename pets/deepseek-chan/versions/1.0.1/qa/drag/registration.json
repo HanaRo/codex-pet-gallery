@@ -1,0 +1,177 @@
+{
+  "method": "One shared source-row scale, then integer translation to the generated ahoge tip. Preserve dangling feet and generated body sway; no rotation, warping or synthetic interpolation.",
+  "anchor": [
+    108,
+    8
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "source_anchor": [
+        105.5625,
+        8
+      ],
+      "translation": [
+        2,
+        0
+      ],
+      "anchor_after": [
+        107.5625,
+        8
+      ],
+      "bbox": [
+        27,
+        6,
+        168,
+        199
+      ]
+    },
+    {
+      "frame": 1,
+      "source_anchor": [
+        110.07692307692308,
+        8
+      ],
+      "translation": [
+        -2,
+        0
+      ],
+      "anchor_after": [
+        108.07692307692308,
+        8
+      ],
+      "bbox": [
+        25,
+        5,
+        162,
+        203
+      ]
+    },
+    {
+      "frame": 2,
+      "source_anchor": [
+        110.59574468085107,
+        8
+      ],
+      "translation": [
+        -3,
+        0
+      ],
+      "anchor_after": [
+        107.59574468085107,
+        8
+      ],
+      "bbox": [
+        23,
+        6,
+        162,
+        202
+      ]
+    },
+    {
+      "frame": 3,
+      "source_anchor": [
+        98.54901960784314,
+        8
+      ],
+      "translation": [
+        9,
+        0
+      ],
+      "anchor_after": [
+        107.54901960784314,
+        8
+      ],
+      "bbox": [
+        31,
+        5,
+        177,
+        203
+      ]
+    },
+    {
+      "frame": 4,
+      "source_anchor": [
+        101.82352941176471,
+        8
+      ],
+      "translation": [
+        6,
+        0
+      ],
+      "anchor_after": [
+        107.82352941176471,
+        8
+      ],
+      "bbox": [
+        28,
+        5,
+        175,
+        202
+      ]
+    },
+    {
+      "frame": 5,
+      "source_anchor": [
+        108.54901960784314,
+        8
+      ],
+      "translation": [
+        -1,
+        0
+      ],
+      "anchor_after": [
+        107.54901960784314,
+        8
+      ],
+      "bbox": [
+        28,
+        5,
+        161,
+        202
+      ]
+    },
+    {
+      "frame": 6,
+      "source_anchor": [
+        105.10416666666667,
+        7
+      ],
+      "translation": [
+        3,
+        1
+      ],
+      "anchor_after": [
+        108.10416666666667,
+        8
+      ],
+      "bbox": [
+        27,
+        6,
+        170,
+        204
+      ]
+    },
+    {
+      "frame": 7,
+      "source_anchor": [
+        106.78260869565217,
+        8
+      ],
+      "translation": [
+        1,
+        0
+      ],
+      "anchor_after": [
+        107.78260869565217,
+        8
+      ],
+      "bbox": [
+        26,
+        6,
+        166,
+        202
+      ]
+    }
+  ]
+}

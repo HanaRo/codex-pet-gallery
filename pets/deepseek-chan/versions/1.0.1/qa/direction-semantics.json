@@ -1,0 +1,102 @@
+{
+  "reviewer": "Parent reinspection of the enlarged final encoded direction sheet at native cell size.",
+  "directions": {
+    "000": {
+      "expected": "up",
+      "observed": "Head and eyes clearly raised",
+      "verdict": "pass",
+      "evidence": "Broad visible underside of chin; nose and pupils high on the face; frontal feet stay planted."
+    },
+    "022.5": {
+      "expected": "up-right",
+      "observed": "Raised face turns screen-right",
+      "verdict": "pass",
+      "evidence": "Nose shifts right of head center while chin remains lifted; pupils sit high and right."
+    },
+    "045": {
+      "expected": "up-right",
+      "observed": "Three-quarter face aims up-right",
+      "verdict": "pass",
+      "evidence": "Rightward nose projection and high iris positions; chin remains above neutral with cheek underside visible."
+    },
+    "067.5": {
+      "expected": "up-right",
+      "observed": "Mostly right with shallow upward pitch",
+      "verdict": "warning",
+      "evidence": "Nose and eye surfaces face right; pupils and lifted chin retain slight upward bias. Vertical difference from090 is subtle but consistent in ordered row."
+    },
+    "090": {
+      "expected": "right",
+      "observed": "Three-quarter head clearly aims screen-right",
+      "verdict": "pass",
+      "evidence": "Nose projects right, visible face surface shifts right and eyes follow; feet/apron stay frontal."
+    },
+    "112.5": {
+      "expected": "down-right",
+      "observed": "Right-facing head starts dipping",
+      "verdict": "warning",
+      "evidence": "Rightward nose and gaze remain; forehead lowers and chin begins tucking, with lower eyelid/iris placement than090. Vertical pitch is shallow."
+    },
+    "135": {
+      "expected": "down-right",
+      "observed": "Head bowed toward lower-right",
+      "verdict": "pass",
+      "evidence": "Crown advances, chin tucks, pupils sit low while nose and face still point right."
+    },
+    "157.5": {
+      "expected": "down-right",
+      "observed": "Nearly straight down with small rightward bias",
+      "verdict": "warning",
+      "evidence": "Large crown and compressed lower face show down; pupil/nose bias remains slightly screen-right before the centered180 pose."
+    },
+    "180": {
+      "expected": "down",
+      "observed": "Centered deeply bowed head",
+      "verdict": "pass",
+      "evidence": "Crown dominates, fringe and eyes descend toward the collar, chin tucks; gaze centered down and torso frontal."
+    },
+    "202.5": {
+      "expected": "down-left",
+      "observed": "Bowed head starts turning screen-left",
+      "verdict": "pass",
+      "evidence": "Chin remains tucked and pupils low; nose and visible cheek surface shift left from180."
+    },
+    "225": {
+      "expected": "down-left",
+      "observed": "Three-quarter head aims down-left",
+      "verdict": "pass",
+      "evidence": "Nose points left, eyes low under bangs and crown prominent; feet remain anchored."
+    },
+    "247.5": {
+      "expected": "down-left",
+      "observed": "Mostly left with shallow downward pitch",
+      "verdict": "warning",
+      "evidence": "Strong leftward nose and eye orientation; chin lower and crown more visible than270. Downward component is subtle but advances coherently from225."
+    },
+    "270": {
+      "expected": "left",
+      "observed": "Head and eyes clearly screen-left",
+      "verdict": "pass",
+      "evidence": "Nose projects toward screen-left and face appears on left side of hair mass; pupils follow left; shoulders and apron fixed."
+    },
+    "292.5": {
+      "expected": "up-left",
+      "observed": "Left-facing head lifts gaze",
+      "verdict": "pass",
+      "evidence": "Left-pointing nose rises and chin lifts, irises high within original eye surfaces."
+    },
+    "315": {
+      "expected": "up-left",
+      "observed": "Face tilts up-left",
+      "verdict": "pass",
+      "evidence": "Pronounced chin lift with nose left of head center and pupils high-left; torso remains planted."
+    },
+    "337.5": {
+      "expected": "up-left",
+      "observed": "Mostly upward face with slight leftward bias",
+      "verdict": "warning",
+      "evidence": "Broad underside of chin and high pupils show up; nose/eye aim remains slightly left before centered000. Horizontal component is small but correct."
+    }
+  },
+  "continuity_review": "Original coherent16look poses are re-extracted at larger common scale. At native192x208, all4cardinals and12quadrants retain their prior landmarks. Same subtle intermediate pitches recorded. 000→022.5 and315→337.5 difference outliers follow head yaw/pitch, without clipping/wholebody movement. Feet baseline202, crossrow and wrap continuous; no alpha holes."
+}

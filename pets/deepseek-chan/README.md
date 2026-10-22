@@ -1,20 +1,21 @@
 # DeepSeek 娘
 
-当前版本：[1.0.0](versions/1.0.0/manifest.json)。
+当前版本：[1.0.1](versions/1.0.1/README.md)。[1.0.0](versions/1.0.0/manifest.json) 保留原文件，支持回退。
 
-![完整动作](versions/1.0.0/previews/all-states.gif)
+![捧碗左右摆尾](versions/1.0.1/previews/tail-wag.gif)
 
 | 内容 | 文件 |
 | --- | --- |
-| 直接使用的透明精灵图 | [spritesheet.png](versions/1.0.0/spritesheet.png) |
-| 本地角色配置 | [pet.json](versions/1.0.0/pet.json) |
-| 左右摆尾逐帧 | [tail-wag-frames.png](versions/1.0.0/previews/tail-wag-frames.png) |
-| 十六方向 | [direction-qa.png](versions/1.0.0/previews/direction-qa.png) |
-| 高清原始动作条带 | [sources/strips](versions/1.0.0/sources/strips) |
-| 提示词与生成说明 | [sources](versions/1.0.0/sources) |
+| 直接使用的透明精灵图 | [spritesheet.png](versions/1.0.1/spritesheet.png) |
+| 本地角色配置 | [pet.json](versions/1.0.1/pet.json) |
+| 全部动作 | [GIF](versions/1.0.1/previews/all-states.gif) / [MP4](versions/1.0.1/previews/all-states.mp4) |
+| 十六方向 | [direction-qa.png](versions/1.0.1/previews/direction-qa.png) |
+| 高清条带、提示词与生成记录 | [sources](versions/1.0.1/sources) |
+| 切换与中断检查 | [transitions](versions/1.0.1/previews/transitions) |
+| 验证及版本差异 | [qa](versions/1.0.1/qa) |
 
-这个版本比早期个人预览中的角色约大 25%，站立动作对齐脚底以减少抖动。技术上的 jumping 槽位按照用户要求替换成原地左右摆尾；尾巴从身后经过，身体保持稳定。工作中为端碗扒饭，等待输入时为捧碗张望。
+1.0.1 将 idle 改为捧空碗等饭，左右拖动改为被揪起后晃腿、摆尾与轻微身体晃动。站立摇尾巴沿用捧碗形象；扒饭缩小举筷幅度并修正头发、鳍耳偏宽，使相关动作的身体尺度更接近。
 
-初次公开快照日期为 2026-10-22，原画制作于 2026-10-21。历史较小版与早期跳跃版没有作为本仓库的公开版本发布。
+技术 jumping 槽位按用户要求表示站立左右摇尾巴；running 表示工作时扒饭。方向注视和部分业务状态仍为旧版姿势，已知切换限制见 [开发说明](../../docs/TRANSITIONS.md)。
 
-角色源文件与校验记录请保留；不要用重新压缩或放大的旧图覆盖已发布目录。
+初次公开快照日期为 2026-10-22，原画制作始于 2026-10-21。版本目录中的原图、逐帧资源和校验记录保持冻结；修改应新建版本。

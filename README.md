@@ -2,16 +2,18 @@
 
 保存、复现和持续维护 Codex / ChatGPT Work 的社区 Pet 角色素材。每个角色独立编号、独立版本；已经发布的版本保留原文件和校验和。
 
-当前收录 **DeepSeek 娘 1.0.0**：蓝发 Q 版女仆，爱思考也爱干饭。站立时左右摇尾巴，等待时捧碗，工作时扒饭。
+当前收录 **DeepSeek 娘 1.0.1**：蓝发 Q 版女仆，爱思考也爱干饭。待机捧空碗等饭，悬停捧碗摇尾巴，工作时扒饭；左右拖动呈现被揪起后晃腿、摆尾与轻微身体晃动。
 
-![左右摆尾](pets/deepseek-chan/versions/1.0.0/previews/tail-wag.gif)
+![左右摆尾](pets/deepseek-chan/versions/1.0.1/previews/tail-wag.gif)
 
-[完整动作 GIF](pets/deepseek-chan/versions/1.0.0/previews/all-states.gif) · [完整动作 MP4](pets/deepseek-chan/versions/1.0.0/previews/all-states.mp4) · [十六方向注视](pets/deepseek-chan/versions/1.0.0/previews/look-loop.gif)
+[完整动作 GIF](pets/deepseek-chan/versions/1.0.1/previews/all-states.gif) · [完整动作 MP4](pets/deepseek-chan/versions/1.0.1/previews/all-states.mp4) · [十六方向注视](pets/deepseek-chan/versions/1.0.1/previews/look-loop.gif)
+
+[v1.0.1 Release 与安装包](https://github.com/HanaRo/codex-pet-gallery/releases/tag/v1.0.1) · [版本更新说明](CHANGELOG.md)。已发布的 1.0.0 文件与 Release 保持不变。
 
 ## 直接使用
 
-- [下载当前精灵图](pets/deepseek-chan/versions/1.0.0/spritesheet.png)
-- [客户端角色配置 pet.json](pets/deepseek-chan/versions/1.0.0/pet.json)
+- [下载当前精灵图](pets/deepseek-chan/versions/1.0.1/spritesheet.png)
+- [客户端角色配置 pet.json](pets/deepseek-chan/versions/1.0.1/pet.json)
 - [安装说明](docs/INSTALL.md)
 
 格式为透明 RGBA PNG、1536×2288、v2、192×208 单帧，共 73 个有效帧。目标是支持 v2 自定义 Pet 的客户端；入口和可用性随客户端与账号变化。当前素材已通过 Pets 服务端验证，并与安装后下载的版本逐像素核对一致。
@@ -31,11 +33,11 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 python tools/gallery.py verify-files
 python tools/gallery.py validate --all
-python tools/gallery.py build --pet deepseek-chan --version 1.0.0
-python tools/gallery.py package --pet deepseek-chan --version 1.0.0
+python tools/gallery.py build --pet deepseek-chan --version 1.0.1
+python tools/gallery.py package --pet deepseek-chan --version 1.0.1
 ~~~
 
-重新组装的图片写入 dist/deepseek-chan/1.0.0/spritesheet.png；可安装压缩包写入 dist/deepseek-chan-1.0.0-pet.zip。
+重新组装的图片写入 dist/deepseek-chan/1.0.1/spritesheet.png；可安装压缩包写入 dist/deepseek-chan-1.0.1-pet.zip。
 
 直接下载仓库中的精灵图，可得到冻结版本的相同文件；从 frames.zip 中的逐帧素材重新组装，可得到相同 RGBA 像素。不同 PNG 编码器可能生成不同文件字节，脚本会分别报告文件哈希与像素哈希。AI 再次生成图片不保证得到完全相同的画面。
 
@@ -49,7 +51,7 @@ pets/
   deepseek-chan/
     README.md
     versions/
-      1.0.0/
+      1.0.1/
         pet.json                     # 客户端本地角色配置
         manifest.json                # 版本、逐帧清单、校验和、来源
         spritesheet.png              # 可直接使用的最终素材

@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "input": "historical-run/work/deepseek-chan-picked-right/row-raw.png",
+  "output": "historical-run/work/deepseek-chan-picked-right/row-clean.png",
+  "chroma_key": "#00FF00",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 5,
+  "spill_tolerance": 0.15,
+  "minimum_saturation": 0.1,
+  "changed_pixels": 14042,
+  "decontaminated_pixels": 13701,
+  "spill_suppressed_pixels": 14042,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c3": 1826,
+    "r0c4": 1815,
+    "r0c0": 1777,
+    "r0c7": 1763,
+    "r0c1": 1732,
+    "r0c5": 1718,
+    "r0c2": 1709,
+    "r0c6": 1702
+  },
+  "alpha_preserved": true
+}

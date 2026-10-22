@@ -1,0 +1,12 @@
+{
+  "changed_states": [
+    "jumping (standing tail wag)"
+  ],
+  "changed_rows": [
+    4
+  ],
+  "unchanged_active_frames": 68,
+  "idle_running_and_drag_rows_preserved": true,
+  "final_sha256": "41cf03dc551abd4baa1e38d7738b74cdf6701c6290f4f7a2e2136ba56ae8346a",
+  "method": "Regenerated five standing tail-wag poses hold hungry-idle bowl with matching body/face. One shared direct source scale and integer foot registration. No crossfade or synthetic intermediate frames."
+}

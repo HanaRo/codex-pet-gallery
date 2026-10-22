@@ -1,11 +1,2 @@
-* text=auto eol=lf
-*.png binary
-*.webp binary
-*.gif binary
-*.mp4 binary
-*.zip binary
-*.py text eol=lf
-*.json text eol=lf
-*.md text eol=lf
-*.yml text eol=lf
-
+# Frozen files and SHA256SUMS must retain identical bytes on every platform.
+* -text

@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "version": "1.0.1",
+  "based_on": "1.0.0",
+  "provider": "OpenAI image generation via built-in Codex imagegen",
+  "model_identifier": "not returned by the tool",
+  "random_seed": "not returned",
+  "generated_repair_jobs": {
+    "idle": {
+      "source": "strips/idle.png",
+      "prompt": "prompts/idle.md",
+      "references": [
+        "references/hungry-concept.png"
+      ],
+      "registration": "qa/idle/idle-registration.json",
+      "action": "Hungry empty-bowl offering with breathing and a full blink."
+    },
+    "running-right": {
+      "source": "strips/running-right.png",
+      "prompt": "prompts/running-right.md",
+      "references": [
+        "references/picked-concept.png",
+        "references/picked-tail-left.png",
+        "references/picked-tail-center.png",
+        "references/picked-tail-right.png"
+      ],
+      "registration": "qa/drag/registration.json",
+      "action": "Ahoge suspension, gentle body sway, dangling legs and bilateral tail wag."
+    },
+    "running-left": {
+      "source": "strips/running-left.png",
+      "prompt": "prompts/running-left.md",
+      "derived_from": "running-right",
+      "method": "Per-cell mirror, original temporal order; native-resolution approved strip."
+    },
+    "jumping": {
+      "source": "strips/jumping.png",
+      "prompt": "prompts/jumping.md",
+      "references": [
+        "references/hungry-idle-canonical.png"
+      ],
+      "registration": "qa/tail-wag/registration.json",
+      "action": "Standing bilateral tail wag while holding the same cream bowl."
+    },
+    "running": {
+      "source": "strips/running.png",
+      "prompt": "prompts/running.md",
+      "references": [
+        "references/hungry-idle-canonical.png",
+        "history/atlas-before-running-width-correction.png",
+        "history/running-before-width-correction.png"
+      ],
+      "registration": "qa/running/registration.json",
+      "action": "Compact eating cycle, head/hair/fin silhouette matched to hungry idle."
+    }
+  },
+  "unchanged_source_states": [
+    "waving",
+    "failed",
+    "waiting",
+    "review",
+    "look-row-9",
+    "look-row-10"
+  ],
+  "original_workflow": "Pets plugin 0.1.6 bundled extraction, inspection, composition, despill and quality gates. Plugin/client code is not redistributed.",
+  "reproduction_boundary": "frames.zip rebuilds exact RGBA pixels. High-resolution sources and prompts support editing; AI reruns and source extraction are not guaranteed byte-identical.",
+  "source_resolution_note": "All newly drawn strips retain their original tool output. running-left is a native per-cell derivation; its high-resolution origin is running-right."
+}

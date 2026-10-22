@@ -1,0 +1,147 @@
+{
+  "method": "Register the regenerated narrower-head eating strip using bundled connected-pose groups, one shared isotropic scale and one final downsample. Integer-only foot registration; no broad warp, anisotropic squeeze or tweening.",
+  "target_height": 190,
+  "shared_source_scale": 0.45346062052505964,
+  "target_foot_x": 88.33,
+  "target_baseline_y": 202,
+  "records": [
+    {
+      "frame": 0,
+      "source_bounds": [
+        28,
+        153,
+        353,
+        571
+      ],
+      "translation": [
+        17,
+        10
+      ],
+      "bbox": [
+        18,
+        11,
+        167,
+        202
+      ],
+      "width": 149,
+      "height": 191,
+      "foot_anchor_x": 88.02140672782875,
+      "baseline_y": 202
+    },
+    {
+      "frame": 1,
+      "source_bounds": [
+        386,
+        153,
+        709,
+        571
+      ],
+      "translation": [
+        17,
+        10
+      ],
+      "bbox": [
+        18,
+        11,
+        166,
+        202
+      ],
+      "width": 148,
+      "height": 191,
+      "foot_anchor_x": 88.02153846153846,
+      "baseline_y": 202
+    },
+    {
+      "frame": 2,
+      "source_bounds": [
+        743,
+        153,
+        1067,
+        571
+      ],
+      "translation": [
+        17,
+        10
+      ],
+      "bbox": [
+        18,
+        11,
+        167,
+        202
+      ],
+      "width": 149,
+      "height": 191,
+      "foot_anchor_x": 88.5615141955836,
+      "baseline_y": 202
+    },
+    {
+      "frame": 3,
+      "source_bounds": [
+        1101,
+        152,
+        1424,
+        571
+      ],
+      "translation": [
+        17,
+        9
+      ],
+      "bbox": [
+        18,
+        10,
+        166,
+        202
+      ],
+      "width": 148,
+      "height": 192,
+      "foot_anchor_x": 88.13003095975232,
+      "baseline_y": 202
+    },
+    {
+      "frame": 4,
+      "source_bounds": [
+        1462,
+        153,
+        1783,
+        571
+      ],
+      "translation": [
+        18,
+        10
+      ],
+      "bbox": [
+        19,
+        11,
+        166,
+        202
+      ],
+      "width": 147,
+      "height": 191,
+      "foot_anchor_x": 88.6845425867508,
+      "baseline_y": 202
+    },
+    {
+      "frame": 5,
+      "source_bounds": [
+        1821,
+        152,
+        2142,
+        571
+      ],
+      "translation": [
+        17,
+        9
+      ],
+      "bbox": [
+        18,
+        10,
+        165,
+        202
+      ],
+      "width": 147,
+      "height": 192,
+      "foot_anchor_x": 87.90595611285266,
+      "baseline_y": 202
+    }
+  ]
+}

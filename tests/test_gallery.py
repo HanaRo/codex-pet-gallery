@@ -2,6 +2,7 @@ import hashlib
 import json
 from pathlib import Path
 import shutil
+import subprocess
 import sys
 import tempfile
 import unittest
@@ -69,8 +70,11 @@ class GalleryTests(unittest.TestCase):
     def test_new_pet_and_new_version_are_registered_without_overwriting(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
-            # Copy the existing release so catalog validation can resolve the original entry.
-            shutil.copy2(ROOT / "catalog.json", root / "catalog.json")
+            # Keep this import fixture independent of how many real versions are published.
+            catalog = {"schema_version": 1, "project": "test-gallery", "pets": [{
+                "id": "deepseek-chan", "display_name": "DeepSeek 娘", "latest": "1.0.0",
+                "versions": {"1.0.0": "pets/deepseek-chan/versions/1.0.0/manifest.json"}}]}
+            (root / "catalog.json").write_text(json.dumps(catalog))
             dest = root / "pets/deepseek-chan/versions/1.0.0"
             shutil.copytree(RELEASE, dest)
             first = import_atlas(root, "new-pet", "Test", "1.0.0", RELEASE / "spritesheet.png")
@@ -84,6 +88,23 @@ class GalleryTests(unittest.TestCase):
             self.assertEqual(pet["latest"], "1.1.0")
             self.assertEqual(len(pet["versions"]), 2)
             self.assertEqual(len(gallery.catalog_entries(root)), 3)
+
+    def test_preview_export_preserves_audited_clock_and_source(self):
+        atlas = RELEASE / "spritesheet.png"
+        original = gallery.sha256(atlas)
+        with tempfile.TemporaryDirectory() as temp:
+            subprocess.run([sys.executable, str(ROOT / "tools/render_previews.py"),
+                            "--atlas", str(atlas), "--output", temp],
+                           check=True, capture_output=True, text=True)
+            for state, expected in [("idle", [1680, 660, 660, 840, 840, 1920]),
+                                    ("running", [120]*5 + [220])]:
+                with Image.open(Path(temp) / "states" / f"{state}.gif") as gif:
+                    actual = []
+                    for index in range(gif.n_frames):
+                        gif.seek(index)
+                        actual.append(gif.info["duration"])
+                self.assertEqual(actual, expected)
+        self.assertEqual(gallery.sha256(atlas), original)
 
 
 if __name__ == "__main__":
