@@ -1,0 +1,86 @@
+{
+  "method": "AI-generated source strips; independently approved rows; deterministic extraction/registration/assembly; single final edge-local despill pass.",
+  "exact_regeneration_guaranteed": false,
+  "frozen_frames_authoritative": true,
+  "rows": [
+    {
+      "state": "idle",
+      "source": "sources/strips/idle.png",
+      "prompt": "sources/prompts/idle.md",
+      "identity_reference": "sources/references/canonical-base.png",
+      "extra_identity_reference": null
+    },
+    {
+      "state": "running-right",
+      "source": "sources/strips/running-right.png",
+      "prompt": "sources/prompts/running-right.md",
+      "identity_reference": "sources/references/canonical-base.png",
+      "extra_identity_reference": null
+    },
+    {
+      "state": "running-left",
+      "source": "sources/strips/running-left.png",
+      "prompt": "sources/prompts/running-left.md",
+      "identity_reference": "sources/references/canonical-base.png",
+      "extra_identity_reference": null
+    },
+    {
+      "state": "waving",
+      "source": "sources/strips/waving.png",
+      "prompt": "sources/prompts/waving.md",
+      "identity_reference": "sources/references/canonical-base.png",
+      "extra_identity_reference": null
+    },
+    {
+      "state": "jumping",
+      "source": "sources/strips/jumping.png",
+      "prompt": "sources/prompts/jumping.md",
+      "identity_reference": "sources/references/canonical-base.png",
+      "extra_identity_reference": null
+    },
+    {
+      "state": "failed",
+      "source": "sources/strips/failed.png",
+      "prompt": "sources/prompts/failed.md",
+      "identity_reference": "sources/references/canonical-base.png",
+      "extra_identity_reference": null
+    },
+    {
+      "state": "waiting",
+      "source": "sources/strips/waiting.png",
+      "prompt": "sources/prompts/waiting.md",
+      "identity_reference": "sources/references/canonical-base.png",
+      "extra_identity_reference": "sources/references/meal-base.png"
+    },
+    {
+      "state": "running",
+      "source": "sources/strips/running.png",
+      "prompt": "sources/prompts/running.md",
+      "identity_reference": "sources/references/canonical-base.png",
+      "extra_identity_reference": "sources/references/meal-base.png"
+    },
+    {
+      "state": "review",
+      "source": "sources/strips/review.png",
+      "prompt": "sources/prompts/review.md",
+      "identity_reference": "sources/references/canonical-base.png",
+      "extra_identity_reference": null
+    },
+    {
+      "state": "look-row-9",
+      "source": "sources/strips/look-row-9.png",
+      "prompt": "sources/prompts/look-row-9.md",
+      "identity_reference": "sources/references/canonical-base.png",
+      "extra_identity_reference": null
+    },
+    {
+      "state": "look-row-10",
+      "source": "sources/strips/look-row-10.png",
+      "prompt": "sources/prompts/look-row-10.md",
+      "identity_reference": "sources/references/canonical-base.png",
+      "extra_identity_reference": null
+    }
+  ],
+  "tail_edit_note": "jumping prompt refers to an earlier editing target; this release includes the accepted result and prompt, not every discarded image or transient reference.",
+  "look_row_10_note": "Selected look-row-10 source had a shared size normalization during original production; the approved source and exact final cells are frozen here."
+}
