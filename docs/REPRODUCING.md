@@ -26,6 +26,8 @@ be535f9abd7aeca27c0c33bd04b4cfe3267dd907de6d29eaca4341aa552b0af1
 
 ## 独立重新组装
 
+需要 Python 3.11+。先在[版本画廊](../VERSIONS.md)选定版本。以下以干饭版 1.0.1 为例，装学霸版的角色 ID 是 `deepseek-gpt-scholar`，版本为 `1.0.0`。
+
 ~~~bash
 python -m pip install -r requirements.txt
 python tools/gallery.py verify-files

@@ -1,76 +1,31 @@
 # Codex Pet Gallery
 
-保存、复现和持续维护 Codex / ChatGPT Work 的社区 Pet 角色素材。每个角色独立编号、独立版本；已经发布的版本保留原文件和校验和。
+给 Codex 和 ChatGPT Work 换一只会偷吃、会摆尾的桌面伙伴。
 
-| 角色 | 当前版本 | 特色 |
-| --- | --- | --- |
-| [DeepSeek 娘](pets/deepseek-chan/) | [1.0.1](pets/deepseek-chan/versions/1.0.1/) | 蓝发女仆捧碗等饭，工作时扒饭，悬停时摇尾巴 |
-| [DeepSeek 娘 · 装学霸版](pets/deepseek-gpt-scholar/) | [1.0.0](pets/deepseek-gpt-scholar/versions/1.0.0/) | 白龙学霸捧书藏饭，抬书偷吃，被揪起后扶正假发 |
+[版本画廊](VERSIONS.md) · [安装与导入](docs/INSTALL.md) · [发布说明](RELEASE_NOTES.md)
 
-![装学霸版从待机到摇尾巴](pets/deepseek-gpt-scholar/versions/1.0.0/previews/idle-tail-wag-idle.gif)
+## 角色画廊
 
-[装学霸版完整动作视频](pets/deepseek-gpt-scholar/versions/1.0.0/previews/complete-showcase.mp4) · [DeepSeek 娘 v1.0.1 Release](https://github.com/HanaRo/codex-pet-gallery/releases/tag/v1.0.1) · [版本更新说明](CHANGELOG.md)
+### DeepSeek 娘 · 干饭版 `1.0.1`
 
-## 直接使用
+<img src="pets/deepseek-chan/versions/1.0.1/previews/states/running.gif" width="128" alt="蓝发女仆捧碗扒饭">
 
-- 装学霸版 1.0.0 的 [精灵图](pets/deepseek-gpt-scholar/versions/1.0.0/spritesheet.png)与[客户端配置](pets/deepseek-gpt-scholar/versions/1.0.0/pet.json)
-- DeepSeek 娘 1.0.1 的 [精灵图](pets/deepseek-chan/versions/1.0.1/spritesheet.png)与[客户端配置](pets/deepseek-chan/versions/1.0.1/pet.json)
-- [安装说明](docs/INSTALL.md)
+平时捧空碗等饭，工作时扒饭，被鼠标揪起来会晃腿摆尾。
 
-格式为透明 RGBA PNG、1536×2288、v2、192×208 单帧，共 73 个有效帧。目标是支持 v2 自定义 Pet 的客户端；入口和可用性随客户端与账号变化。当前素材已通过 Pets 服务端验证，并与安装后下载的版本逐像素核对一致。
+**[桌面安装包 ZIP](https://github.com/HanaRo/codex-pet-gallery/releases/download/v1.0.1/deepseek-chan-1.0.1-pet.zip)** · [Work 导入图 PNG](https://raw.githubusercontent.com/HanaRo/codex-pet-gallery/v1.0.1/pets/deepseek-chan/versions/1.0.1/spritesheet.png) · [角色详情](pets/deepseek-chan/)
 
-**动画素材不控制客户端循环策略。** 已核查的桌面版本会将吃饭动作播三轮，约 2.46 秒，再切回慢速待机，即使任务仍在执行。详见 [播放逻辑与动作映射](docs/PLAYBACK.md)。
+想要空手眨眼待机、左右小跑的版本？[看经典版 1.0.0](VERSIONS.md#经典版-100)。
 
-## 复现当前版本
+### DeepSeek 娘 · 装学霸版 `1.0.0`
 
-需要 Python 3.11+。以下命令全部离线处理素材；首次安装依赖需要联网。
+<img src="pets/deepseek-gpt-scholar/versions/1.0.0/previews/states/running.gif" width="128" alt="装学霸版抬书挡住嘴偷吃">
 
-~~~bash
-python -m venv .venv
-# macOS / Linux
-source .venv/bin/activate
-# Windows PowerShell：.venv\Scripts\Activate.ps1
+白龙学霸捧书藏饭，抬起书就开始偷吃。被揪起来，还会伸手扶正假发。
 
-python -m pip install -r requirements.txt
-python tools/gallery.py verify-files
-python tools/gallery.py validate --all
-python tools/gallery.py build --pet deepseek-gpt-scholar --version 1.0.0
-python tools/gallery.py package --pet deepseek-gpt-scholar --version 1.0.0
-~~~
+**[Work 导入图 PNG](https://raw.githubusercontent.com/HanaRo/codex-pet-gallery/deepseek-gpt-scholar-v1.0.0/pets/deepseek-gpt-scholar/versions/1.0.0/spritesheet.png)** · [桌面配置](pets/deepseek-gpt-scholar/versions/1.0.0/pet.json) · [角色详情](pets/deepseek-gpt-scholar/)
 
-装学霸版重建的图片写入 dist/deepseek-gpt-scholar/1.0.0/spritesheet.png，安装包写入 dist/deepseek-gpt-scholar-1.0.0-pet.zip。
+## 安装与制作
 
-直接下载仓库中的精灵图，可得到冻结版本的相同文件；从 frames.zip 中的逐帧素材重新组装，可得到相同 RGBA 像素。不同 PNG 编码器可能生成不同文件字节，脚本会分别报告文件哈希与像素哈希。AI 再次生成图片不保证得到完全相同的画面。
-
-详见 [复现说明](docs/REPRODUCING.md)。
-
-## 项目结构
-
-~~~text
-catalog.json                         # 多角色索引、各角色最新版本
-pets/
-  <角色 id>/
-    README.md
-    versions/
-      <角色版本>/
-        pet.json                     # 客户端本地角色配置
-        manifest.json                # 版本、逐帧清单、校验和、来源
-        spritesheet.png              # 可直接使用的最终素材
-        layout.json                  # 16 个注视方向的布局
-        frames.zip                   # 从最终图无损拆出的完整 73 帧资源包
-        sources/                     # 高清原画、条带、提示词、生成记录
-        previews/                    # GIF / MP4 / 静帧
-        qa/                          # 脱敏后的历史验证与视觉检查
-tools/                               # 独立组装、校验与打包
-docs/                                # 安装、复现、播放规则与发布流程
-~~~
-
-后续更新会新增版本目录；其他角色使用新的稳定 id。操作约定见 [贡献与版本管理](CONTRIBUTING.md)。[发布准备](docs/PUBLISHING.md)包含 GitHub 初始化与按角色发布的命令。
-
-制作或修改动画前，先读 [状态切换约定](docs/TRANSITIONS.md)，并用 `tools/preview_transitions.py` 检查动作自然结束、任意帧中断、拖动、悬停和注视覆盖之间的衔接。
-
-## 来源与许可
-
-这是社区素材项目，与 OpenAI、DeepSeek 无官方隶属或背书关系。角色设计与动作参考记录见 [CREDITS.md](CREDITS.md)。
-
-项目新编写的工具代码采用 [MIT](LICENSE)。角色、参考图片与生成素材的权利说明单独见 [ASSET_LICENSE.md](ASSET_LICENSE.md)，来源见 [CREDITS.md](CREDITS.md)。代码许可不替代参考素材的授权。
+- **安装**。桌面 Codex 使用角色配置和精灵图，支持 v2 的 ChatGPT Work 可导入 PNG。[安装与导入](docs/INSTALL.md)
+- **复现与开发**。从最终逐帧资源重建图集，或检查九组动画和十六个注视方向。[离线复现](docs/REPRODUCING.md) · [播放逻辑](docs/PLAYBACK.md) · [贡献指南](CONTRIBUTING.md)
+- **来源与许可**。角色与动画为社区制作。[素材来源](CREDITS.md) · [素材权利](ASSET_LICENSE.md) · [工具代码许可](LICENSE)
