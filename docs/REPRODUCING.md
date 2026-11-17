@@ -8,7 +8,9 @@
 | 重新组装当前版本 | frames.zip 中已批准的 73 张 PNG | 解码后的 RGBA 像素完全相同 |
 | 重新绘制、扩展动作 | sources 中原画、高清条带和提示词 | 提供设计与流程依据；AI 结果不保证逐像素一致 |
 
-最终 PNG 文件 SHA-256：
+以下哈希与历史来源说明对应 DeepSeek 娘 1.0.1。装学霸版 1.0.0 使用相同的离线重建流程，版本内提供独立的[复现说明](../pets/deepseek-gpt-scholar/versions/1.0.0/)和[文件及像素哈希](../pets/deepseek-gpt-scholar/versions/1.0.0/manifest.json)。
+
+DeepSeek 娘 1.0.1 的最终 PNG 文件 SHA-256：
 
 ~~~text
 be535f9abd7aeca27c0c33bd04b4cfe3267dd907de6d29eaca4341aa552b0af1

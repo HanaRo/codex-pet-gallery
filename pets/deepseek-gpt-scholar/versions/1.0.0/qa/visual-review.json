@@ -1,0 +1,11 @@
+{
+  "status": "updated-and-readback-verified",
+  "date": "2026-10-30",
+  "scope": "Only5 tail-wag cells replaced; all other68 required frames and15 unused cells pixel-identical.",
+  "visual_review": "Native before/after against installed idle, five-frame loop, full contact, four stills and final encoded idle-tail-idle sequence reviewed. Purple clothing shadow/blue hair cast reduced; skin close to idle. No choreography or timings changed; common192px tall body and bottom202 retained.",
+  "source_geometry": "ImageGen source same1983x793; foreground mask overlap99.22%, native registration shifts identical to original. Minor antialias/outline changes possible from color edit.",
+  "palette_evidence": "Bright-dress diagnostic median RGB: idle244,242,252; old235,229,248; new243,240,252. Skin center idle252,234,216; old252,227,207; new253,235,215. Population diagnostics, not exact per-material swatches.",
+  "qa_reuse": "Unchanged16 look cells retain earlier semantic/continuity and isolated blind verdicts, backed by unchanged-cells-proof.json. Existing112.5 subtle-pitch warning remains.",
+  "source_mode": "built-in imagegen",
+  "pet_mutated": true
+}

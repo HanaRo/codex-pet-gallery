@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-30",
+  "same_stable_pet": true,
+  "active": true,
+  "downloaded_pixels_match_validated_upload": true,
+  "validated_upload_sha256": "601c08572cbb196746f31374217b752083a3b7c006b3e81a8fc2172aa736ce26",
+  "stored_download_sha256": "02a1c58ade3b812d3f9506dd77e6e1dee05cd0f11762ba31af4a12609917610f",
+  "note": "Storage re-encodes PNG; encoded hashes may differ while every RGBA pixel matches."
+}

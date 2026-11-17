@@ -1,0 +1,129 @@
+{
+  "atlas": "spritesheet-v2-candidate.png",
+  "review": "Labeled native-size sixteen-direction sheet and enlarged cardinal inspection, with isolated3-reviewer A/B majority.",
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "up",
+      "verdict": "pass",
+      "evidence": "Both irises raised; chin lifted and lower facial plane exposed, frontal horizontal aim."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "evidence": "Chin remains high and nose/face move slightly right; irises above horizon and right."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "evidence": "Upward face plane and raised irises, moderate screen-right yaw with asymmetric lenses."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "evidence": "Strong rightward nose/lens perspective and slightly raised chin/eyelines."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "right",
+      "verdict": "pass",
+      "evidence": "Nose points screen-right; near viewer-left lens/eye larger, far viewer-right smaller; irises right."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "warning",
+      "evidence": "Rightward nose/lens perspective retained; head and upper lids lower slightly toward bowl. Subtle vertical difference from090. Three isolated blind reviewers found the vertical axis ambiguous or subtle; labeled native paired review against090/135 shows a small lowering of head/lids, consistent down-right sequence without reversal. Retain as reviewed warning, awaiting user motion inspection."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "evidence": "Crown increases and chin tucks, both irises lower and right with rightward nose/lens geometry."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "evidence": "Strong chin tuck and down gaze toward rice, reduced but retained rightward nose/yaw."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "down",
+      "verdict": "pass",
+      "evidence": "Crown and forehead expanded above low face; chin tucked, both irises down toward bowl, nose centered."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "evidence": "Chin remains tucked and eyes low; nose/face shift screen-left, near viewer-right lens larger."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "evidence": "Downward head pitch/crown visible; nose and irises point left with clear lens foreshortening."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "evidence": "Strong screen-left yaw, nose at left face boundary; chin still tucked and gaze lowered relative270."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "left",
+      "verdict": "pass",
+      "evidence": "Nose clearly points to screen-left border; near viewer-right lens and iris large, far lens/eye sharply foreshortened. Head is more profile-like than090, face remains readable."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "evidence": "Leftward face/nose and raised chin; irises lifted, lower face plane exposed, original eye construction retained."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "evidence": "Moderate left yaw plus raised nose/chin and eyes above horizon; body and book remain frontal."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "evidence": "Strong upward pitch with lifted chin and exposed lower face; subtle residual leftward nose/iris aim, nearly frontal before000."
+    }
+  ],
+  "user_approved": false,
+  "scope": "Candidate loop stage; no pet installation yet.",
+  "boundary_review": {
+    "157.5->180": "Right down-facing nose returns center with retained planted book/body; visible area increases6%, baseline stays202.",
+    "337.5->000": "Residual left yaw returns center at raised pitch; source family head/ahoge silhouette differences remain small, no flip or registration teleport."
+  },
+  "review_notes": [
+    "270 has stronger side profile than090; near eye clear and far eye almost occluded, direction unmistakable.",
+    "112.5 vertical pitch subtle, retained as reviewed warning.",
+    "Hair/book/rice microdetails differ between families; common scale and lower anchor preserve body continuity."
+  ]
+}

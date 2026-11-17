@@ -1,0 +1,18 @@
+Use case: identity-preserve. Asset: a coherent six-frame chibi pet animation source, 3 columns by 2 rows, reading top row left-to-right then bottom row left-to-right.
+
+Reference 1 is the approved canonical identity. Reference 2 is the current B eating-behind-book version: preserve its exact face, costume, body proportions and width. Reference 3 shows the low-book posture and exposed bowl. Reference 4 is an invisible layout guide for spacing only; never draw its markings.
+
+Requested change to B: visibly tilt/lift the small book UPRIGHT in front of the mouth to hide eating, then lower/tilt it back down. This is the SAME open lavender book changing height and pitch in both hands, NOT changing its size and NOT opening/closing its two covers. Keep the head, torso and planted feet nearly stationary. The two elbows/forearms and sleeves naturally follow the book's arc. Rice bowl stays at the original chest position behind the book: the raised book naturally occludes it; do NOT lift the bowl up to the eyes or tilt/spill the bowl. No extra hands or utensils.
+
+Frame 1: low small open book held at chest/waist, tilted flatter toward the character, more pale pages visible from above, full face and eager small w mouth visible; rice bowl peeks above book as in reference 3.
+Frame 2: both forearms rotate/lift the book halfway, top edge rises toward chin, intermediate hand positions and angle; face still visible.
+Frame 3: book held distinctly UPRIGHT, front lavender covers more vertical, only a narrow sliver of top pages visible, upper edge just below the glasses hiding mouth/chin. Eyes and entire glasses stay visible above. Head bows slightly behind it to take a hidden bite. Bowl remains behind at its original height, mostly occluded now.
+Frame 4: same upright book height and angle, tiny head lift and gently puffed cheeks showing beside the top edge imply hidden chewing. Mouth remains behind the book.
+Frame 5: both hands lower/tilt book halfway back toward frame 1; top edge passes down below chin, mouth gradually reappears, a small chewing mouth. Bowl naturally reappears above the lowering book.
+Frame 6: book fully lowered, flatter like frame 1, face and small cheeky closed mouth visible again. Gaze remains on rice, cheeks relax. Pose very close to frame 1 so the loop connects smoothly.
+
+Make the low-versus-upright book difference very clear, with intermediate halfway angles on frames 2 and 5. Do not merely bob the head or move the whole character. Use one consistent object: same book width, cover motifs, mint bookmark and tassel; perspective may change with pitch, never stretch it. One cream rice bowl with navy rim remains physically at chest height; partial occlusion by raised book is correct. Two hands always grip the same outer edges. Both eyes open throughout, no left/right looking and no blink filler.
+
+Preserve huge sapphire eyes, thin round glasses, white/lavender hair with vivid blue streak/cyan ends, blue loop ahoge, ivory horns, navy fin ears, viewer-right knot ornament/tassel, small pale dragon wings, white/lavender frilled costume, white tights and shoes, one blue whale tail with ivory costume sleeve. Match reference 2 polished anime linework, proportions and shading. Stable body width, common scale, fixed foot baseline and same camera. No morphing, stretching, body growth or shrink.
+
+Exactly six separated complete full-body figures, substantial pure green padding between poses and on ALL canvas edges. Include whole ahoge, horns, wings, tail, shoes. Pure opaque #00FF00 background. No numbers, text, panels, guide lines, shadows, steam, detached rice, motion lines, blur or effects.

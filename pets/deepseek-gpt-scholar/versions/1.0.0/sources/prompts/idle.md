@@ -1,0 +1,15 @@
+Create SIX coherent full-body animation poses of the SAME scholar mascot, in TWO ROWS OF THREE on flat pure green #00FF00. This is a single idle loop connecting LOOKING UP/OUTWARD to LOOKING DOWN AT RICE with real head pitch and intermediate poses. No blink.
+Image 1 is the two head-pitch anchors: LEFT lifted head/outward gaze, RIGHT head lowered toward rice. Preserve this clearly visible physical head-angle difference. Image 2 is canonical identity and small book/bowl geometry. Image 3 is six-slot layout guide ONLY; never draw its lines.
+
+LOCKED in ALL six: identical standing torso, shoulder level, TWO hands, widely-open SMALL lavender book with mint bookmark/knot motif, ONE centered cream rice bowl with dark blue rim and white rice; same prop coordinates, dimensions and angles. Feet remain on one ground baseline. Do NOT move bowl, hands, book or whole body to simulate head motion. Same body scale, hair volume, costume, wings and whale tail. Keep exact round blushing face, sapphire eyes, thin round glasses, blue loop ahoge, ivory horns, white/lavender wig with blue/cyan tells, fin ears, knot ornament, frilly white-purple dress/tights/shoes, small fake dragon wings, ONE blue whale tail with ivory sleeve. Glossy anime cel shading and crisp dark navy linework consistent across the family.
+
+Order TOP row 0,1,2; BOTTOM row 3,4,5:
+0 LIFTED HEAD: match the LEFT head anchor from image 1, chin gently lifted, open eyes look ahead/slightly upward; tiny calm w smile.
+1 LEFT CHECK: keep that same lifted head pitch, tiny 4-degree head turn and clear gaze toward screen-left. Body/props fixed.
+2 RIGHT CHECK: same lifted pitch, tiny 4-degree head turn and gaze toward screen-right; avoid a profile view or large face rotation.
+3 LOWERING TRANSITION: head centered, pitch HALFWAY between the two anchors, chin moves gently toward bowl and eyes lower toward rice. Eyes stay OPEN. This is the needed transition replacing the old closed-eye pose.
+4 DOWN AT RICE: match RIGHT anchor from image 1: physical head fully dipped toward rice, crown/bangs perspective, nose, glasses and eyelids follow the head tilt. Eyes gaze down at bowl. Tiny attached pink tongue briefly touches lip corner, softly eager rosy expression, wants a bite but does not eat.
+5 RETURN HALFWAY: head rises gently back to the SAME halfway pitch as frame 3; eyes STILL look down toward rice, tongue withdrawn, tiny eager slightly parted mouth. This halfway position bridges naturally back to frame 0's lifted pitch on loop repeat. Do NOT jump directly from fully lowered head to fully lifted head.
+Keep head size constant; head pivot is the neck, not whole-sprite sliding, shrinking, eye-only movement or arbitrary deformation. No dramatic face changes. All eyes open. Mouth details tiny, no rice disappearing, no saliva, no extra props or hands.
+
+Layout: 3 columns x 2 rows, identical scale and placement within invisible slots, full poses separate with generous pure green gaps and margins. Every horn, hair loop, wing, tail and shoe intact and away from canvas edges. No labels, numbering, text, visible guides, borders, floor, shadows, glow, detached effects or extra character.

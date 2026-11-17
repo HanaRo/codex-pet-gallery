@@ -15,4 +15,6 @@
 
 原制作的本机路径、账号专属 Pet ID、临时链接、Library 引用与原始聊天记录均未纳入本项目。
 
+装学霸版 1.0.0 延续 DeepSeek 娘的蓝发、鳍耳和鲸尾，以内置 imagegen 生成白龙伪装立绘、各组动作与注视方向。两侧拖动分别绘制。摇尾巴配色以确认的待机图为参考。生成概念、高清条带和提示词见[装学霸版素材记录](pets/deepseek-gpt-scholar/versions/1.0.0/sources/generation-plan.json)。素材适用 [ASSET_LICENSE.md](ASSET_LICENSE.md) 中的权利说明。
+
 1.0.1 更新记录：捧碗 idle、揪起拖动、捧碗摇尾巴与扒饭轮廓修正仍由内置 imagegen 根据已有形象和本次确认的关键姿势生成。左向拖动由已批准右向帧逐格镜像，帧序不变。详细来源路径、参考角色和处理参数随 1.0.1 的 sources/generation-plan.json、提示词及 qa 分组保存；未复制客户端或插件实现。

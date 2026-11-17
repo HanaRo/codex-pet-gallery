@@ -1,0 +1,91 @@
+{
+  "atlas": "spritesheet.png",
+  "sha256": "601c08572cbb196746f31374217b752083a3b7c006b3e81a8fc2172aa736ce26",
+  "all_nine_duration_ms": 14340,
+  "complete_showcase_duration_ms": 18340,
+  "idle_tail_idle_duration_ms": 10020,
+  "state_durations": {
+    "idle": [
+      1680,
+      660,
+      660,
+      840,
+      840,
+      1920
+    ],
+    "running-right": [
+      120,
+      120,
+      120,
+      120,
+      120,
+      120,
+      120,
+      220
+    ],
+    "running-left": [
+      120,
+      120,
+      120,
+      120,
+      120,
+      120,
+      120,
+      220
+    ],
+    "waving": [
+      140,
+      140,
+      140,
+      280
+    ],
+    "jumping": [
+      140,
+      140,
+      140,
+      140,
+      280
+    ],
+    "failed": [
+      140,
+      140,
+      140,
+      140,
+      140,
+      140,
+      140,
+      240
+    ],
+    "waiting": [
+      150,
+      150,
+      150,
+      150,
+      150,
+      260
+    ],
+    "running": [
+      120,
+      120,
+      120,
+      120,
+      120,
+      220
+    ],
+    "review": [
+      150,
+      150,
+      150,
+      150,
+      150,
+      280
+    ]
+  },
+  "notes": [
+    "All frames cropped from exact encoded v2 file, no regeneration, resizing of sprite geometry, blending or crossfade. Display2x nearest only.",
+    "Idle durations use established6x desktop idle timing.",
+    "Showcase order is material review, not a client lifecycle transition graph.",
+    "Other states use their existing durations; actual client repeats generally3 loops before auto-idle.",
+    "Jumping slot deliberately holds grounded tail wag per user request."
+  ]
+}

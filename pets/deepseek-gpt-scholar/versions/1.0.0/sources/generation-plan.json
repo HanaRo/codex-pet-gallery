@@ -1,0 +1,79 @@
+{
+  "generated_between": [
+    "2026-10-26",
+    "2026-10-30"
+  ],
+  "generation_tool": "Built-in Codex imagegen",
+  "model_and_seed": "Not returned by the tool",
+  "extraction_tool": "Pets plugin 0.1.6",
+  "canonical_base": "sources/references/canonical-base.png",
+  "base_prompt": "sources/prompts/base-pet.md",
+  "cardinal_reference": "sources/references/approved-cardinals.png",
+  "cardinal_source": "sources/references/cardinal-source.png",
+  "cardinal_prompt": "sources/prompts/look-cardinals.md",
+  "rows": [
+    {
+      "state": "idle",
+      "image": "sources/strips/idle.png",
+      "prompt": "sources/prompts/idle.md"
+    },
+    {
+      "state": "running-right",
+      "image": "sources/strips/running-right.png",
+      "prompt": "sources/prompts/running-right.md"
+    },
+    {
+      "state": "running-left",
+      "image": "sources/strips/running-left.png",
+      "prompt": "sources/prompts/running-left.md"
+    },
+    {
+      "state": "waving",
+      "image": "sources/strips/waving.png",
+      "prompt": "sources/prompts/waving.md"
+    },
+    {
+      "state": "jumping",
+      "image": "sources/strips/jumping.png",
+      "prompt": "sources/prompts/jumping.md"
+    },
+    {
+      "state": "failed",
+      "image": "sources/strips/failed.png",
+      "prompt": "sources/prompts/failed.md"
+    },
+    {
+      "state": "waiting",
+      "image": "sources/strips/waiting.png",
+      "prompt": "sources/prompts/waiting.md"
+    },
+    {
+      "state": "running",
+      "image": "sources/strips/running.png",
+      "prompt": "sources/prompts/running.md"
+    },
+    {
+      "state": "review",
+      "image": "sources/strips/review.png",
+      "prompt": "sources/prompts/review.md"
+    },
+    {
+      "state": "look-row-9",
+      "image": "sources/strips/look-row-9.png",
+      "prompt": "sources/prompts/look-row-9.md"
+    },
+    {
+      "state": "look-row-10",
+      "image": "sources/strips/look-row-10.png",
+      "prompt": "sources/prompts/look-row-10.md"
+    }
+  ],
+  "processing": [
+    "Recover separated pose groups and remove #00FF00 backgrounds.",
+    "Apply common scale per family and register standing feet to y=202. Drag poses retain their suspended pose.",
+    "Assemble two independent look families in clockwise order with a shared registration.",
+    "Use the idle palette as the reference for the five tail-wag poses.",
+    "Assemble v2 and clean chroma spill once. Freeze the final encoded atlas and its 73 cropped cells."
+  ],
+  "paths_relative_to": "version directory"
+}

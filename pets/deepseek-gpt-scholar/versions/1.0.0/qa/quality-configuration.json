@@ -1,0 +1,6 @@
+{
+  "minimum_jump_lift": 0,
+  "reason": "Explicit user requested standing side-to-side tail wag in jumping slot, no airborne jump. Existing accepted-for-now tail wag row is preserved. Other bundled limits unchanged.",
+  "standard_report": "../stage11-standard-audit/frame-review.json",
+  "standard_preservation_proof": "preservation-check.json"
+}

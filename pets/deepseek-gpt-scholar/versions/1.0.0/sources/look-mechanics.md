@@ -1,0 +1,5 @@
+# Scholar look mechanics
+
+The lower body, shoulders, costume wings, two book-holding hands, open book, rice bowl, shoes and resting right-side tail remain anchored like approved idle. Neck and whole head lead gaze: pitch up/down, yaw left/right. Eyes rotate within their original construction, while nose, cheeks, ears, glasses, wig fringe, horns and ornament follow the physical head turn. Do not rotate the whole sprite or replace pupils over a static face.
+
+Cardinal order in viewer coordinates is 000 up, 090 screen-right, 180 down, 270 screen-left. Up must lift chin and aim nose/eyes above viewer. Down must reveal crown/forehead and aim gaze below viewer. Right/left use clear three-quarter head yaw with corresponding nose displacement and lens foreshortening. Keep both irises visible. Ornamental knot remains attached to its original temple and can foreshorten/occlude naturally; no mirroring. Common scale and grounded registration must match idle. The user will inspect the four cardinal anchors before coherent eight-pose direction rows are generated.

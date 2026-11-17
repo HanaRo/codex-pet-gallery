@@ -1,0 +1,47 @@
+{
+  "method": "Diagnostic native-cell bright cloth pixel population in same approximate dress ROI; measures palette tendency, not exact matched material patches. Skin center median subject to tiny face/outline differences.",
+  "results": [
+    {
+      "state": "idle reference",
+      "cloth_light_region_median_rgb": [
+        244.0,
+        242.0,
+        252.0
+      ],
+      "cloth_blue_minus_green_median": 4.5,
+      "skin_center_median_rgb": [
+        252.0,
+        234.0,
+        216.0
+      ]
+    },
+    {
+      "state": "tail before",
+      "cloth_light_region_median_rgb": [
+        235.0,
+        229.0,
+        248.0
+      ],
+      "cloth_blue_minus_green_median": 16.0,
+      "skin_center_median_rgb": [
+        252.0,
+        227.0,
+        207.0
+      ]
+    },
+    {
+      "state": "tail after",
+      "cloth_light_region_median_rgb": [
+        243.0,
+        240.0,
+        252.0
+      ],
+      "cloth_blue_minus_green_median": 8.0,
+      "skin_center_median_rgb": [
+        253.0,
+        235.0,
+        215.0
+      ]
+    }
+  ]
+}

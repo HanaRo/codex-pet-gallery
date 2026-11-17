@@ -1,0 +1,27 @@
+{
+  "changed_cells": [
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      4
+    ]
+  ],
+  "unchanged_required_cells": 68,
+  "unchanged_unused_cells": 15,
+  "all_other_cells_pixel_identical": true
+}

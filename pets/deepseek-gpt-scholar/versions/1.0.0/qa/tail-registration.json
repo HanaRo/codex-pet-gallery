@@ -1,0 +1,77 @@
+[
+  {
+    "frame": 0,
+    "translation": [
+      4,
+      4
+    ],
+    "bbox": [
+      18,
+      10,
+      178,
+      202
+    ],
+    "torso_error": 0.0,
+    "glasses_cheek_error": 0.0
+  },
+  {
+    "frame": 1,
+    "translation": [
+      1,
+      4
+    ],
+    "bbox": [
+      19,
+      10,
+      170,
+      202
+    ],
+    "torso_error": 0.01564701646566391,
+    "glasses_cheek_error": 0.025349333882331848
+  },
+  {
+    "frame": 2,
+    "translation": [
+      -3,
+      4
+    ],
+    "bbox": [
+      11,
+      10,
+      171,
+      202
+    ],
+    "torso_error": 0.022819580510258675,
+    "glasses_cheek_error": 0.02498309686779976
+  },
+  {
+    "frame": 3,
+    "translation": [
+      0,
+      4
+    ],
+    "bbox": [
+      18,
+      10,
+      170,
+      202
+    ],
+    "torso_error": 0.01826988160610199,
+    "glasses_cheek_error": 0.04417230188846588
+  },
+  {
+    "frame": 4,
+    "translation": [
+      4,
+      4
+    ],
+    "bbox": [
+      18,
+      10,
+      178,
+      202
+    ],
+    "torso_error": 0.03229670599102974,
+    "glasses_cheek_error": 0.03987491503357887
+  }
+]
