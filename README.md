@@ -1,5 +1,7 @@
 # Codex Pet Gallery
 
+**简体中文** · [English](README.en.md)
+
 给 Codex 和 ChatGPT Work 换一只会偷吃、会摆尾的桌面伙伴。
 
 [版本画廊](VERSIONS.md) · [安装与导入](docs/INSTALL.md) · [发布说明](RELEASE_NOTES.md)
@@ -12,7 +14,7 @@
 
 平时捧空碗等饭，工作时扒饭，被鼠标揪起来会晃腿摆尾。
 
-**[桌面安装包 ZIP](https://github.com/HanaRo/codex-pet-gallery/releases/download/v1.0.1/deepseek-chan-1.0.1-pet.zip)** · [Work 导入图 PNG](https://raw.githubusercontent.com/HanaRo/codex-pet-gallery/v1.0.1/pets/deepseek-chan/versions/1.0.1/spritesheet.png) · [角色详情](pets/deepseek-chan/)
+**[桌面安装包 ZIP](https://github.com/HanaRo/codex-pet-gallery/releases/download/v1.0.1/deepseek-chan-1.0.1-pet.zip)** · [Work 导入图 PNG](https://github.com/HanaRo/codex-pet-gallery/releases/download/v1.0.1/deepseek-chan-1.0.1-spritesheet.png) · [角色详情](pets/deepseek-chan/)
 
 想要空手眨眼待机、左右小跑的版本？[看经典版 1.0.0](VERSIONS.md#经典版-100)。
 

@@ -1,5 +1,7 @@
 # DeepSeek 娘 · 装学霸版
 
+**简体中文** · [English](README.en.md)
+
 DeepSeek 娘戴上眼镜和白龙假发，捧着书假装用功，书后藏着饭碗。[返回画廊](../../README.md) · [查看全部版本](../../VERSIONS.md) · [安装与导入](../../docs/INSTALL.md)
 
 ## 装学霸版 1.0.0
@@ -8,7 +10,7 @@ DeepSeek 娘戴上眼镜和白龙假发，捧着书假装用功，书后藏着�
 
 工作时抬书挡嘴偷吃，被揪起来会晃腿摆尾，再伸手扶正滑落的假发。此版已把摇尾巴的配色调得更接近待机。
 
-**[桌面安装包 ZIP](https://github.com/HanaRo/codex-pet-gallery/releases/download/v1.1.0/deepseek-gpt-scholar-1.0.0-pet.zip)** · [Work 导入图 PNG](https://github.com/HanaRo/codex-pet-gallery/releases/download/v1.1.0/deepseek-gpt-scholar-1.0.0-spritesheet.png) · [版本详情](versions/1.0.0/) · [GitHub Release](https://github.com/HanaRo/codex-pet-gallery/releases/tag/v1.1.0)
+**[桌面安装包 ZIP](https://github.com/HanaRo/codex-pet-gallery/releases/download/v1.1.0/deepseek-gpt-scholar-1.0.0-pet.zip)** · [Work 导入图 PNG](https://github.com/HanaRo/codex-pet-gallery/releases/download/v1.1.0/deepseek-gpt-scholar-1.0.0-spritesheet.png) · [版本详情](versions/1.0.0/README.md) · [English](../../docs/versions/deepseek-gpt-scholar-1.0.0.en.md) · [GitHub Release](https://github.com/HanaRo/codex-pet-gallery/releases/tag/v1.1.0)
 
 ## 动画预览
 

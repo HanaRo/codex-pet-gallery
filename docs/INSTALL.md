@@ -1,5 +1,7 @@
 # 安装与导入
 
+**简体中文** · [English](INSTALL.en.md)
+
 安装包中有 pet.json、spritesheet.png 和 layout.json。pet.json 是本地客户端角色描述；release.json / manifest.json 是本项目的版本记录，不是另一种客户端配置格式。
 
 ## 本地 Codex / 兼容桌面客户端
@@ -38,4 +40,4 @@
 
 ## 安装后只吃一会儿
 
-这可能是客户端将工作动作播三轮后回到待机的规则。更换原图、提高分辨率或修改 GIF 循环标记均不会改变这一规则。见仓库 docs/PLAYBACK.md。
+这可能是客户端将工作动作播三轮后回到待机的规则。更换原图、提高分辨率或修改 GIF 循环标记均不会改变这一规则。[客户端播放逻辑](https://github.com/HanaRo/codex-pet-gallery/blob/main/docs/PLAYBACK.md)

@@ -1,5 +1,7 @@
 # Changelog
 
+**简体中文** · [English](CHANGELOG.en.md)
+
 ## 画廊 v1.1.0 — 2026-11-18
 
 - 正式发布装学霸版 1.0.0，提供桌面安装包、Work 导入图、完整源码和附件校验和。[GitHub Release](https://github.com/HanaRo/codex-pet-gallery/releases/tag/v1.1.0)

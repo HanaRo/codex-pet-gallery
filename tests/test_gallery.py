@@ -62,6 +62,11 @@ class GalleryTests(unittest.TestCase):
             self.assertEqual(a.read_bytes(), b.read_bytes())
             with gallery.zipfile.ZipFile(a) as z:
                 self.assertTrue({"pet.json", "spritesheet.png", "SHA256SUMS.txt"} <= set(z.namelist()))
+                for name in ["INSTALL", "ASSET_LICENSE", "CREDITS"]:
+                    chinese = z.read(f"{name}.md").decode("utf-8")
+                    english = z.read(f"{name}.en.md").decode("utf-8")
+                    self.assertIn(f"[English]({name}.en.md)", chinese)
+                    self.assertIn(f"[简体中文]({name}.md)", english)
                 pet = json.loads(z.read("pet.json"))
                 self.assertEqual(pet["spritesheetPath"], "spritesheet.png")
                 self.assertEqual(hashlib.sha256(z.read("spritesheet.png")).hexdigest(),

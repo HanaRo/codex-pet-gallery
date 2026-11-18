@@ -1,5 +1,7 @@
 # 更新角色与新增角色
 
+**简体中文** · [English](CONTRIBUTING.en.md)
+
 ## 稳定 id 与独立版本
 
 - 一个角色固定使用一个 id，例如 deepseek-chan。不要把账号专属 Pet ID 放进仓库。
@@ -7,7 +9,7 @@
 - 新角色放到 pets/<新id>/versions/<版本>/，在 catalog.json 中增加一项。
 - 每个角色的 latest 独立；角色标签使用 <id>-v<版本>，避免多角色版本冲突。整个画廊的 GitHub Release 使用 v<版本>；本次 v1.0.1 与 deepseek-chan-v1.0.1 指向同一提交。
 - id 使用小写英文、数字和连字符。版本使用三段数字，例如 1.1.0。
-- 建议：文档修订在根文档记录；画面小修用 PATCH，新增动作或明显改版用 MINOR，不兼容格式变更用 MAJOR。
+- 文档修订同步更新中英文版。画面小修用 PATCH，新增动作或明显改版用 MINOR，不兼容格式变更用 MAJOR。[发布流程](docs/PUBLISHING.md)
 
 ## 导入已经完成的 atlas
 

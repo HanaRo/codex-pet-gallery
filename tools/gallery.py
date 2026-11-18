@@ -218,9 +218,10 @@ def package_release(manifest_path, destination):
     metadata = {k: m[k] for k in ["id", "version", "display_name", "description", "sprite_version", "atlas", "overrides"]}
     metadata["metadata_note"] = "Release metadata only; not a client installation config."
     files["release.json"] = (json.dumps(metadata, ensure_ascii=False, indent=2) + "\n").encode()
-    files["INSTALL.md"] = (ROOT / "docs/INSTALL.md").read_bytes()
-    files["ASSET_LICENSE.md"] = (ROOT / "ASSET_LICENSE.md").read_bytes()
-    files["CREDITS.md"] = (ROOT / "CREDITS.md").read_bytes()
+    for doc in ["docs/INSTALL", "ASSET_LICENSE", "CREDITS"]:
+        for suffix in [".md", ".en.md"]:
+            source = ROOT / f"{doc}{suffix}"
+            files[source.name] = source.read_bytes()
     files["SHA256SUMS.txt"] = "".join(
         f"{hashlib.sha256(data).hexdigest()}  {name}\n" for name, data in sorted(files.items())
     ).encode()

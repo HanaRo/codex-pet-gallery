@@ -1,6 +1,8 @@
 # 发布说明
 
-按版本查看新增内容、安装方式和下载项。[版本画廊](VERSIONS.md) · [GitHub Releases](https://github.com/HanaRo/codex-pet-gallery/releases)
+**简体中文** · [English](RELEASE_NOTES.en.md)
+
+按版本查看新增内容、安装方式和下载项。[版本画廊](VERSIONS.md) · [更新日志](CHANGELOG.md) · [GitHub Releases](https://github.com/HanaRo/codex-pet-gallery/releases)
 
 | 画廊版本 | 收录内容 | 发布说明 |
 | --- | --- | --- |
