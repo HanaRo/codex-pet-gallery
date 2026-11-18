@@ -28,4 +28,4 @@
 
 戴白龙假发捧书藏饭，会挡书偷吃，也会在被揪起来时扶好假发。此版包含摇尾巴配色修正。
 
-**[Work 导入图 PNG](https://raw.githubusercontent.com/HanaRo/codex-pet-gallery/deepseek-gpt-scholar-v1.0.0/pets/deepseek-gpt-scholar/versions/1.0.0/spritesheet.png)** · [桌面配置](pets/deepseek-gpt-scholar/versions/1.0.0/pet.json) · [完整动作](pets/deepseek-gpt-scholar/versions/1.0.0/previews/complete-showcase.mp4) · [版本详情](pets/deepseek-gpt-scholar/versions/1.0.0/)
+**[桌面安装包 ZIP](https://github.com/HanaRo/codex-pet-gallery/releases/download/v1.1.0/deepseek-gpt-scholar-1.0.0-pet.zip)** · [Work 导入图 PNG](https://github.com/HanaRo/codex-pet-gallery/releases/download/v1.1.0/deepseek-gpt-scholar-1.0.0-spritesheet.png) · [完整动作](pets/deepseek-gpt-scholar/versions/1.0.0/previews/complete-showcase.mp4) · [发布说明](https://github.com/HanaRo/codex-pet-gallery/releases/tag/v1.1.0)

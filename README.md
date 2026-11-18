@@ -22,7 +22,7 @@
 
 白龙学霸捧书藏饭，抬起书就开始偷吃。被揪起来，还会伸手扶正假发。
 
-**[Work 导入图 PNG](https://raw.githubusercontent.com/HanaRo/codex-pet-gallery/deepseek-gpt-scholar-v1.0.0/pets/deepseek-gpt-scholar/versions/1.0.0/spritesheet.png)** · [桌面配置](pets/deepseek-gpt-scholar/versions/1.0.0/pet.json) · [角色详情](pets/deepseek-gpt-scholar/)
+**[桌面安装包 ZIP](https://github.com/HanaRo/codex-pet-gallery/releases/download/v1.1.0/deepseek-gpt-scholar-1.0.0-pet.zip)** · [Work 导入图 PNG](https://github.com/HanaRo/codex-pet-gallery/releases/download/v1.1.0/deepseek-gpt-scholar-1.0.0-spritesheet.png) · [角色详情](pets/deepseek-gpt-scholar/)
 
 ## 安装与制作
 
